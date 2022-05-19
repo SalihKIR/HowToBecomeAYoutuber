@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4FDC1C828365EA100F8F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1C728365EA100F8F244 /* AppDelegate.swift */; };
-		D4FDC1CA28365EA100F8F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1C928365EA100F8F244 /* SceneDelegate.swift */; };
-		D4FDC1CC28365EA100F8F244 /* FirstFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1CB28365EA100F8F244 /* FirstFlow.swift */; };
-		D4FDC1CF28365EA100F8F244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1CD28365EA100F8F244 /* Main.storyboard */; };
-		D4FDC1D128365EA200F8F244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1D028365EA200F8F244 /* Assets.xcassets */; };
-		D4FDC1D428365EA200F8F244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1D228365EA200F8F244 /* LaunchScreen.storyboard */; };
-		D4FDC1DF2836613900F8F244 /* DetailFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1DE2836613900F8F244 /* DetailFlow.swift */; };
-		D4FDC1E12836615800F8F244 /* DetailVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1E02836615700F8F244 /* DetailVC.storyboard */; };
-		D4FDC1E3283661FF00F8F244 /* ExplanationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1E2283661FF00F8F244 /* ExplanationFlow.swift */; };
-		D4FDC1E52836623100F8F244 /* ExplanationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1E42836623100F8F244 /* ExplanationVC.storyboard */; };
+		D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F42836678100F8F244 /* AppDelegate.swift */; };
+		D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F62836678100F8F244 /* SceneDelegate.swift */; };
+		D4FDC1F92836678100F8F244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F82836678100F8F244 /* ViewController.swift */; };
+		D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FA2836678100F8F244 /* Main.storyboard */; };
+		D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FD2836678300F8F244 /* Assets.xcassets */; };
+		D4FDC2012836678300F8F244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4FDC1C428365EA100F8F244 /* HowToBecomeAYoutuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToBecomeAYoutuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4FDC1C728365EA100F8F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4FDC1C928365EA100F8F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4FDC1CB28365EA100F8F244 /* FirstFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlow.swift; sourceTree = "<group>"; };
-		D4FDC1CE28365EA100F8F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D4FDC1D028365EA200F8F244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4FDC1D328365EA200F8F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D4FDC1D528365EA200F8F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4FDC1DE2836613900F8F244 /* DetailFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlow.swift; sourceTree = "<group>"; };
-		D4FDC1E02836615700F8F244 /* DetailVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailVC.storyboard; sourceTree = "<group>"; };
-		D4FDC1E2283661FF00F8F244 /* ExplanationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationFlow.swift; sourceTree = "<group>"; };
-		D4FDC1E42836623100F8F244 /* ExplanationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplanationVC.storyboard; sourceTree = "<group>"; };
+		D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToBecomeAYoutuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FDC1F42836678100F8F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4FDC1F62836678100F8F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4FDC1F82836678100F8F244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4FDC1FB2836678100F8F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4FDC1FD2836678300F8F244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4FDC2002836678300F8F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4FDC2022836678300F8F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4FDC1C128365EA100F8F244 /* Frameworks */ = {
+		D4FDC1EE2836678100F8F244 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,82 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4FDC1BB28365EA000F8F244 = {
+		D4FDC1E82836678100F8F244 = {
 			isa = PBXGroup;
 			children = (
-				D4FDC1C628365EA100F8F244 /* HowToBecomeAYoutuber */,
-				D4FDC1C528365EA100F8F244 /* Products */,
+				D4FDC1F32836678100F8F244 /* HowToBecomeAYoutuber */,
+				D4FDC1F22836678100F8F244 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D4FDC1C528365EA100F8F244 /* Products */ = {
+		D4FDC1F22836678100F8F244 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4FDC1C428365EA100F8F244 /* HowToBecomeAYoutuber.app */,
+				D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4FDC1C628365EA100F8F244 /* HowToBecomeAYoutuber */ = {
+		D4FDC1F32836678100F8F244 /* HowToBecomeAYoutuber */ = {
 			isa = PBXGroup;
 			children = (
-				D4FDC1DB28365ED400F8F244 /* Scenes */,
-				D4FDC1D028365EA200F8F244 /* Assets.xcassets */,
-				D4FDC1D228365EA200F8F244 /* LaunchScreen.storyboard */,
-				D4FDC1D528365EA200F8F244 /* Info.plist */,
-				D4FDC1C928365EA100F8F244 /* SceneDelegate.swift */,
-				D4FDC1C728365EA100F8F244 /* AppDelegate.swift */,
+				D4FDC1F42836678100F8F244 /* AppDelegate.swift */,
+				D4FDC1F62836678100F8F244 /* SceneDelegate.swift */,
+				D4FDC1F82836678100F8F244 /* ViewController.swift */,
+				D4FDC1FA2836678100F8F244 /* Main.storyboard */,
+				D4FDC1FD2836678300F8F244 /* Assets.xcassets */,
+				D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */,
+				D4FDC2022836678300F8F244 /* Info.plist */,
 			);
 			path = HowToBecomeAYoutuber;
-			sourceTree = "<group>";
-		};
-		D4FDC1DB28365ED400F8F244 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				D4FDC1DC28365F2A00F8F244 /* Firstflow */,
-				D4FDC1E62836624800F8F244 /* Detailflow */,
-				D4FDC1E7283662A900F8F244 /* ExplanationFlow */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		D4FDC1DC28365F2A00F8F244 /* Firstflow */ = {
-			isa = PBXGroup;
-			children = (
-				D4FDC1CD28365EA100F8F244 /* Main.storyboard */,
-				D4FDC1CB28365EA100F8F244 /* FirstFlow.swift */,
-			);
-			path = Firstflow;
-			sourceTree = "<group>";
-		};
-		D4FDC1E62836624800F8F244 /* Detailflow */ = {
-			isa = PBXGroup;
-			children = (
-				D4FDC1DE2836613900F8F244 /* DetailFlow.swift */,
-				D4FDC1E02836615700F8F244 /* DetailVC.storyboard */,
-			);
-			path = Detailflow;
-			sourceTree = "<group>";
-		};
-		D4FDC1E7283662A900F8F244 /* ExplanationFlow */ = {
-			isa = PBXGroup;
-			children = (
-				D4FDC1E42836623100F8F244 /* ExplanationVC.storyboard */,
-				D4FDC1E2283661FF00F8F244 /* ExplanationFlow.swift */,
-			);
-			path = ExplanationFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4FDC1C328365EA100F8F244 /* HowToBecomeAYoutuber */ = {
+		D4FDC1F02836678100F8F244 /* HowToBecomeAYoutuber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4FDC1D828365EA200F8F244 /* Build configuration list for PBXNativeTarget "HowToBecomeAYoutuber" */;
+			buildConfigurationList = D4FDC2052836678300F8F244 /* Build configuration list for PBXNativeTarget "HowToBecomeAYoutuber" */;
 			buildPhases = (
-				D4FDC1C028365EA100F8F244 /* Sources */,
-				D4FDC1C128365EA100F8F244 /* Frameworks */,
-				D4FDC1C228365EA100F8F244 /* Resources */,
+				D4FDC1ED2836678100F8F244 /* Sources */,
+				D4FDC1EE2836678100F8F244 /* Frameworks */,
+				D4FDC1EF2836678100F8F244 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,25 +84,25 @@
 			);
 			name = HowToBecomeAYoutuber;
 			productName = HowToBecomeAYoutuber;
-			productReference = D4FDC1C428365EA100F8F244 /* HowToBecomeAYoutuber.app */;
+			productReference = D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D4FDC1BC28365EA000F8F244 /* Project object */ = {
+		D4FDC1E92836678100F8F244 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					D4FDC1C328365EA100F8F244 = {
+					D4FDC1F02836678100F8F244 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = D4FDC1BF28365EA000F8F244 /* Build configuration list for PBXProject "HowToBecomeAYoutuber" */;
+			buildConfigurationList = D4FDC1EC2836678100F8F244 /* Build configuration list for PBXProject "HowToBecomeAYoutuber" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D4FDC1BB28365EA000F8F244;
-			productRefGroup = D4FDC1C528365EA100F8F244 /* Products */;
+			mainGroup = D4FDC1E82836678100F8F244;
+			productRefGroup = D4FDC1F22836678100F8F244 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4FDC1C328365EA100F8F244 /* HowToBecomeAYoutuber */,
+				D4FDC1F02836678100F8F244 /* HowToBecomeAYoutuber */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4FDC1C228365EA100F8F244 /* Resources */ = {
+		D4FDC1EF2836678100F8F244 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FDC1E52836623100F8F244 /* ExplanationVC.storyboard in Resources */,
-				D4FDC1D428365EA200F8F244 /* LaunchScreen.storyboard in Resources */,
-				D4FDC1D128365EA200F8F244 /* Assets.xcassets in Resources */,
-				D4FDC1E12836615800F8F244 /* DetailVC.storyboard in Resources */,
-				D4FDC1CF28365EA100F8F244 /* Main.storyboard in Resources */,
+				D4FDC2012836678300F8F244 /* LaunchScreen.storyboard in Resources */,
+				D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */,
+				D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4FDC1C028365EA100F8F244 /* Sources */ = {
+		D4FDC1ED2836678100F8F244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FDC1CC28365EA100F8F244 /* FirstFlow.swift in Sources */,
-				D4FDC1C828365EA100F8F244 /* AppDelegate.swift in Sources */,
-				D4FDC1DF2836613900F8F244 /* DetailFlow.swift in Sources */,
-				D4FDC1E3283661FF00F8F244 /* ExplanationFlow.swift in Sources */,
-				D4FDC1CA28365EA100F8F244 /* SceneDelegate.swift in Sources */,
+				D4FDC1F92836678100F8F244 /* ViewController.swift in Sources */,
+				D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */,
+				D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4FDC1CD28365EA100F8F244 /* Main.storyboard */ = {
+		D4FDC1FA2836678100F8F244 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4FDC1CE28365EA100F8F244 /* Base */,
+				D4FDC1FB2836678100F8F244 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D4FDC1D228365EA200F8F244 /* LaunchScreen.storyboard */ = {
+		D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4FDC1D328365EA200F8F244 /* Base */,
+				D4FDC2002836678300F8F244 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D4FDC1D628365EA200F8F244 /* Debug */ = {
+		D4FDC2032836678300F8F244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		D4FDC1D728365EA200F8F244 /* Release */ = {
+		D4FDC2042836678300F8F244 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +280,7 @@
 			};
 			name = Release;
 		};
-		D4FDC1D928365EA200F8F244 /* Debug */ = {
+		D4FDC2062836678300F8F244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		D4FDC1DA28365EA200F8F244 /* Release */ = {
+		D4FDC2072836678300F8F244 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -387,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4FDC1BF28365EA000F8F244 /* Build configuration list for PBXProject "HowToBecomeAYoutuber" */ = {
+		D4FDC1EC2836678100F8F244 /* Build configuration list for PBXProject "HowToBecomeAYoutuber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4FDC1D628365EA200F8F244 /* Debug */,
-				D4FDC1D728365EA200F8F244 /* Release */,
+				D4FDC2032836678300F8F244 /* Debug */,
+				D4FDC2042836678300F8F244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4FDC1D828365EA200F8F244 /* Build configuration list for PBXNativeTarget "HowToBecomeAYoutuber" */ = {
+		D4FDC2052836678300F8F244 /* Build configuration list for PBXNativeTarget "HowToBecomeAYoutuber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4FDC1D928365EA200F8F244 /* Debug */,
-				D4FDC1DA28365EA200F8F244 /* Release */,
+				D4FDC2062836678300F8F244 /* Debug */,
+				D4FDC2072836678300F8F244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D4FDC1BC28365EA000F8F244 /* Project object */;
+	rootObject = D4FDC1E92836678100F8F244 /* Project object */;
 }

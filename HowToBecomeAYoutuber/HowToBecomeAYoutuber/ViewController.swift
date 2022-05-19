@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Firstflow: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
