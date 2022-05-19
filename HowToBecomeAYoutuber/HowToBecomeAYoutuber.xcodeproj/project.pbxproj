@@ -64,11 +64,14 @@
 		D4FDC1F32836678100F8F244 /* HowToBecomeAYoutuber */ = {
 			isa = PBXGroup;
 			children = (
+				D4FDC2192836A89000F8F244 /* Commons */,
+				D4FDC2172836A83A00F8F244 /* Extension */,
 				D4FDC2082836A31100F8F244 /* Scenes */,
-				D4FDC1F42836678100F8F244 /* AppDelegate.swift */,
-				D4FDC1F62836678100F8F244 /* SceneDelegate.swift */,
-				D4FDC1FD2836678300F8F244 /* Assets.xcassets */,
+				D4FDC2152836A81300F8F244 /* Model */,
 				D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */,
+				D4FDC1FD2836678300F8F244 /* Assets.xcassets */,
+				D4FDC1F62836678100F8F244 /* SceneDelegate.swift */,
+				D4FDC1F42836678100F8F244 /* AppDelegate.swift */,
 				D4FDC2022836678300F8F244 /* Info.plist */,
 			);
 			path = HowToBecomeAYoutuber;
@@ -77,7 +80,6 @@
 		D4FDC2082836A31100F8F244 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				D4FDC2142836A77300F8F244 /* Router */,
 				D4FDC20A2836A5FC00F8F244 /* FirstFlow */,
 				D4FDC2092836A5E900F8F244 /* DetailFlow */,
 				D4FDC20B2836A60E00F8F244 /* ExplanationFlow */,
@@ -117,6 +119,44 @@
 			children = (
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		D4FDC2152836A81300F8F244 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4FDC2162836A82C00F8F244 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4FDC2172836A83A00F8F244 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D4FDC2182836A85600F8F244 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D4FDC2192836A89000F8F244 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				D4FDC2162836A82C00F8F244 /* Network */,
+				D4FDC2142836A77300F8F244 /* Router */,
+				D4FDC2182836A85600F8F244 /* Cell */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
