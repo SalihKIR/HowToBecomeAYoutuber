@@ -13,12 +13,13 @@
 		D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FA2836678100F8F244 /* Main.storyboard */; };
 		D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FD2836678300F8F244 /* Assets.xcassets */; };
 		D4FDC2012836678300F8F244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */; };
-		D4FDC20D2836A66300F8F244 /* DetailFlowVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC20C2836A66300F8F244 /* DetailFlowVc.swift */; };
+		D4FDC20D2836A66300F8F244 /* DetailFlowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC20C2836A66300F8F244 /* DetailFlowVC.swift */; };
 		D4FDC20F2836A67400F8F244 /* DetailFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC20E2836A67400F8F244 /* DetailFlow.storyboard */; };
 		D4FDC2112836A6DD00F8F244 /* ExplanationFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC2102836A6DD00F8F244 /* ExplanationFlow.storyboard */; };
 		D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC2122836A6F700F8F244 /* ExplanationFlowVc.swift */; };
 		D4FDC21C2836A99C00F8F244 /* DetailFlowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC21A2836A99C00F8F244 /* DetailFlowCell.swift */; };
 		D4FDC21D2836A99C00F8F244 /* DetailFlowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FDC21B2836A99C00F8F244 /* DetailFlowCell.xib */; };
+		D4FDC21F2836AABA00F8F244 /* Stroyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC21E2836AABA00F8F244 /* Stroyboard+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +31,13 @@
 		D4FDC1FD2836678300F8F244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4FDC2002836678300F8F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FDC2022836678300F8F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4FDC20C2836A66300F8F244 /* DetailFlowVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowVc.swift; sourceTree = "<group>"; };
+		D4FDC20C2836A66300F8F244 /* DetailFlowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowVC.swift; sourceTree = "<group>"; };
 		D4FDC20E2836A67400F8F244 /* DetailFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailFlow.storyboard; sourceTree = "<group>"; };
 		D4FDC2102836A6DD00F8F244 /* ExplanationFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplanationFlow.storyboard; sourceTree = "<group>"; };
 		D4FDC2122836A6F700F8F244 /* ExplanationFlowVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationFlowVc.swift; sourceTree = "<group>"; };
 		D4FDC21A2836A99C00F8F244 /* DetailFlowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowCell.swift; sourceTree = "<group>"; };
 		D4FDC21B2836A99C00F8F244 /* DetailFlowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFlowCell.xib; sourceTree = "<group>"; };
+		D4FDC21E2836AABA00F8F244 /* Stroyboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stroyboard+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D4FDC20E2836A67400F8F244 /* DetailFlow.storyboard */,
-				D4FDC20C2836A66300F8F244 /* DetailFlowVc.swift */,
+				D4FDC20C2836A66300F8F244 /* DetailFlowVC.swift */,
 			);
 			path = DetailFlow;
 			sourceTree = "<group>";
@@ -142,6 +144,7 @@
 		D4FDC2172836A83A00F8F244 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D4FDC21E2836AABA00F8F244 /* Stroyboard+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -149,8 +152,8 @@
 		D4FDC2182836A85600F8F244 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				D4FDC21A2836A99C00F8F244 /* DetailFlowCell.swift */,
 				D4FDC21B2836A99C00F8F244 /* DetailFlowCell.xib */,
+				D4FDC21A2836A99C00F8F244 /* DetailFlowCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -239,11 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FDC21F2836AABA00F8F244 /* Stroyboard+Extension.swift in Sources */,
 				D4FDC21C2836A99C00F8F244 /* DetailFlowCell.swift in Sources */,
 				D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */,
 				D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */,
 				D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */,
-				D4FDC20D2836A66300F8F244 /* DetailFlowVc.swift in Sources */,
+				D4FDC20D2836A66300F8F244 /* DetailFlowVC.swift in Sources */,
 				D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

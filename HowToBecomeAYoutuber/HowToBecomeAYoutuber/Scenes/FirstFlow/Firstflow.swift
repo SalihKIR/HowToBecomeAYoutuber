@@ -11,9 +11,20 @@ class FirstFlowVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
+    @IBAction func firstbutton(_ sender: Any) {
 
+        //let vc = DetailFlowVC.instantiate()
+        let vc = DetailFlowVC.instantiate(storyboard: .detailFlow)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
+//extension FirstFlowVC: StoryboardInstantiate {
+//    static var storyboardType: StoryboardType { return .FirstFlow }
+//}
