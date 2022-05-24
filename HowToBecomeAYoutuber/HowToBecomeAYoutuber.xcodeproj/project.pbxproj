@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D468C783283CFFE400FEAE68 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* Network.swift */; };
+		D468C785283D000900FEAE68 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C784283D000900FEAE68 /* Router.swift */; };
+		D468C787283D07F300FEAE68 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C786283D07F300FEAE68 /* Api.swift */; };
 		D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F42836678100F8F244 /* AppDelegate.swift */; };
 		D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F62836678100F8F244 /* SceneDelegate.swift */; };
 		D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F82836678100F8F244 /* Firstflow.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D468C782283CFFE400FEAE68 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D468C784283D000900FEAE68 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D468C786283D07F300FEAE68 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToBecomeAYoutuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FDC1F42836678100F8F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FDC1F62836678100F8F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 		D4FDC2142836A77300F8F244 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				D468C784283D000900FEAE68 /* Router.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -137,6 +144,8 @@
 		D4FDC2162836A82C00F8F244 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D468C782283CFFE400FEAE68 /* Network.swift */,
+				D468C786283D07F300FEAE68 /* Api.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -244,10 +253,13 @@
 			files = (
 				D4FDC21F2836AABA00F8F244 /* Stroyboard+Extension.swift in Sources */,
 				D4FDC21C2836A99C00F8F244 /* DetailFlowCell.swift in Sources */,
+				D468C783283CFFE400FEAE68 /* Network.swift in Sources */,
 				D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */,
+				D468C785283D000900FEAE68 /* Router.swift in Sources */,
 				D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */,
 				D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */,
 				D4FDC20D2836A66300F8F244 /* DetailFlowVC.swift in Sources */,
+				D468C787283D07F300FEAE68 /* Api.swift in Sources */,
 				D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

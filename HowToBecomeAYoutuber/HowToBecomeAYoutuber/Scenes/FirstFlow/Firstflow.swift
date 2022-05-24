@@ -21,6 +21,8 @@ class FirstFlowVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "iphonewalpage")!)
+        navigationItem.title = "* Sende YOU TUBER olabilirsin *"
+        navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
     }
 
