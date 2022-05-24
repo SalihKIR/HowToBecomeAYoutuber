@@ -21,14 +21,7 @@ class FirstFlowVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "iphonewalpage")!)
-        viewfirst.layer.cornerRadius = 20
-        viewsecond.layer.cornerRadius = 20
-        viewthird.layer.cornerRadius = 20
-        trybutton.layer.cornerRadius = 20
-        secondViewFirst.layer.cornerRadius = 20
-        secondViewSecomd.layer.cornerRadius = 20
-        secondViewThird.layer.cornerRadius = 20
-        trybutton.titleLabel = "Next"
+        settingsView()
     }
 
     @IBAction func firstbutton(_ sender: Any) {
@@ -38,6 +31,17 @@ class FirstFlowVC: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: true)
         navigationController?.pushViewController(vc, animated: true)
         
+    }
+    
+    func settingsView(){
+        viewfirst.layer.cornerRadius = 20
+        viewsecond.layer.cornerRadius = 20
+        viewthird.layer.cornerRadius = 20
+        trybutton.layer.cornerRadius = 20
+        secondViewFirst.layer.cornerRadius = 20
+        secondViewSecomd.layer.cornerRadius = 20
+        secondViewThird.layer.cornerRadius = 20
+        trybutton.titleLabel?.text = "Next"
     }
     
 }
