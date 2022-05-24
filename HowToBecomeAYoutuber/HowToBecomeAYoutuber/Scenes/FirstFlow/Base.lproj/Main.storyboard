@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeB-dq-KkY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="897"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="IVU-tV-fXu">
-                                        <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                                        <rect key="frame" x="0.0" y="100" width="400" height="797"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="25G-9g-pYb">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="176"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="400" height="176"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPH-02-Dld">
                                                         <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
@@ -63,10 +63,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-WB-ELK">
-                                                        <rect key="frame" x="270" y="0.0" width="144" height="176"/>
+                                                        <rect key="frame" x="270" y="0.0" width="130" height="176"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeF-Yr-4Sa">
-                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -83,13 +83,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jUB-pK-k95">
-                                                <rect key="frame" x="0.0" y="207" width="414" height="175.5"/>
+                                                <rect key="frame" x="0.0" y="207" width="400" height="176"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9MN-t8-Hx4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="175.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgF-TZ-z9f">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="175.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -104,10 +104,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kM0-So-VUu">
-                                                        <rect key="frame" x="135" y="0.0" width="130" height="175.5"/>
+                                                        <rect key="frame" x="135" y="0.0" width="130" height="176"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXM-GX-I0Z">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="175.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -122,10 +122,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgZ-Sg-Z2c">
-                                                        <rect key="frame" x="270" y="0.0" width="144" height="175.5"/>
+                                                        <rect key="frame" x="270" y="0.0" width="130" height="176"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hns-eu-ghJ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="144" height="175.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -142,8 +142,8 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiE-t0-z1c">
-                                                <rect key="frame" x="0.0" y="413.5" width="414" height="176"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <rect key="frame" x="0.0" y="414" width="400" height="176"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button">
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -153,7 +153,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ulx-10-mtg">
-                                                <rect key="frame" x="0.0" y="620.5" width="414" height="175.5"/>
+                                                <rect key="frame" x="0.0" y="621" width="400" height="176"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                         </subviews>
@@ -180,6 +180,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="N4D-vV-Z5l"/>
                     <connections>
+                        <outlet property="secondViewFirst" destination="9MN-t8-Hx4" id="XQO-bk-4xE"/>
+                        <outlet property="secondViewSecomd" destination="kM0-So-VUu" id="yhI-PS-Org"/>
+                        <outlet property="secondViewThird" destination="KgZ-Sg-Z2c" id="Yv8-RI-wWs"/>
                         <outlet property="trybutton" destination="UiE-t0-z1c" id="fzb-Og-vqP"/>
                         <outlet property="viewBackGround" destination="XeB-dq-KkY" id="J7I-MT-VFi"/>
                         <outlet property="viewfirst" destination="hPH-02-Dld" id="ek8-Si-dUQ"/>
@@ -213,9 +216,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -14,6 +14,9 @@ class FirstFlowVC: UIViewController {
     @IBOutlet weak var viewfirst: UIView!
     @IBOutlet weak var viewsecond: UIView!
     @IBOutlet weak var viewthird: UIView!
+    @IBOutlet weak var secondViewFirst: UIView!
+    @IBOutlet weak var secondViewSecomd: UIView!
+    @IBOutlet weak var secondViewThird: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +25,10 @@ class FirstFlowVC: UIViewController {
         viewsecond.layer.cornerRadius = 20
         viewthird.layer.cornerRadius = 20
         trybutton.layer.cornerRadius = 20
-        
+        secondViewFirst.layer.cornerRadius = 20
+        secondViewSecomd.layer.cornerRadius = 20
+        secondViewThird.layer.cornerRadius = 20
+        trybutton.titleLabel = "Next"
     }
 
     @IBAction func firstbutton(_ sender: Any) {
