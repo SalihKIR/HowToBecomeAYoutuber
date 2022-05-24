@@ -8,9 +8,20 @@
 import UIKit
 
 class FirstFlowVC: UIViewController {
-
+    
+    @IBOutlet weak var trybutton: UIButton!
+    @IBOutlet weak var viewBackGround: UIView!
+    @IBOutlet weak var viewfirst: UIView!
+    @IBOutlet weak var viewsecond: UIView!
+    @IBOutlet weak var viewthird: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "iphonewalpage")!)
+        viewfirst.layer.cornerRadius = 20
+        viewsecond.layer.cornerRadius = 20
+        viewthird.layer.cornerRadius = 20
+        trybutton.layer.cornerRadius = 20
         
     }
 
