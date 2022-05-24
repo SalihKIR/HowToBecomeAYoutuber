@@ -23,13 +23,13 @@
                                         <rect key="frame" x="0.0" y="100" width="400" height="797"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="25G-9g-pYb">
-                                                <rect key="frame" x="0.0" y="0.0" width="400" height="176"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="400" height="245"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPH-02-Dld">
-                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEo-9Y-JFp">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -45,10 +45,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyI-OQ-YWr">
-                                                        <rect key="frame" x="135" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="135" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdf-0m-9Sk">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -63,10 +63,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-WB-ELK">
-                                                        <rect key="frame" x="270" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="270" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeF-Yr-4Sa">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -83,13 +83,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jUB-pK-k95">
-                                                <rect key="frame" x="0.0" y="207" width="400" height="176"/>
+                                                <rect key="frame" x="0.0" y="276" width="400" height="245"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9MN-t8-Hx4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgF-TZ-z9f">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -104,10 +104,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kM0-So-VUu">
-                                                        <rect key="frame" x="135" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="135" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXM-GX-I0Z">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -122,10 +122,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgZ-Sg-Z2c">
-                                                        <rect key="frame" x="270" y="0.0" width="130" height="176"/>
+                                                        <rect key="frame" x="270" y="0.0" width="130" height="245"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hns-eu-ghJ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="176"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="130" height="245"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                             </button>
@@ -141,20 +141,28 @@
                                                     </view>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiE-t0-z1c">
-                                                <rect key="frame" x="0.0" y="414" width="400" height="176"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
-                                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="firstbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aJa-cR-R89"/>
-                                                </connections>
-                                            </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ulx-10-mtg">
-                                                <rect key="frame" x="0.0" y="621" width="400" height="176"/>
+                                                <rect key="frame" x="0.0" y="552" width="400" height="245"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cc1-IC-CK1">
+                                                        <rect key="frame" x="0.0" y="30" width="400" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="2XI-0W-isP"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <connections>
+                                                            <action selector="firstbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5g-Ca-HP4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Cc1-IC-CK1" firstAttribute="top" secondItem="Ulx-10-mtg" secondAttribute="top" constant="30" id="0pr-HM-VTg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Cc1-IC-CK1" secondAttribute="trailing" id="Cvg-9T-H5J"/>
+                                                    <constraint firstItem="Cc1-IC-CK1" firstAttribute="leading" secondItem="Ulx-10-mtg" secondAttribute="leading" id="DmU-FW-O6X"/>
+                                                </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -183,7 +191,7 @@
                         <outlet property="secondViewFirst" destination="9MN-t8-Hx4" id="XQO-bk-4xE"/>
                         <outlet property="secondViewSecomd" destination="kM0-So-VUu" id="yhI-PS-Org"/>
                         <outlet property="secondViewThird" destination="KgZ-Sg-Z2c" id="Yv8-RI-wWs"/>
-                        <outlet property="trybutton" destination="UiE-t0-z1c" id="fzb-Og-vqP"/>
+                        <outlet property="trybutton" destination="Cc1-IC-CK1" id="5UG-kY-yN3"/>
                         <outlet property="viewBackGround" destination="XeB-dq-KkY" id="J7I-MT-VFi"/>
                         <outlet property="viewfirst" destination="hPH-02-Dld" id="ek8-Si-dUQ"/>
                         <outlet property="viewsecond" destination="FyI-OQ-YWr" id="Exw-LD-YGd"/>
@@ -219,6 +227,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
