@@ -11,17 +11,16 @@
         <!--First FlowVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="FirstFlowVC" id="BYZ-38-t0r" customClass="FirstFlowVC" customModule="HowToBecomeAYoutuber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTM-ub-PDI">
-                                <rect key="frame" x="0.0" y="88" width="402" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="ukt-HV-SBW">
-                                        <rect key="frame" x="16" y="430" width="370" height="328"/>
+                                        <rect key="frame" x="16" y="518" width="370" height="328"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-cy-ajg">
                                                 <rect key="frame" x="0.0" y="0.0" width="370" height="100"/>
@@ -91,7 +90,7 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="Mva-ev-5ar"/>
                                                     <constraint firstItem="2iD-pF-60H" firstAttribute="top" secondItem="Z6v-3v-YT0" secondAttribute="top" constant="35" id="Ugk-5y-eLN"/>
@@ -120,18 +119,28 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CTM-ub-PDI" secondAttribute="trailing" id="40X-JJ-Oez"/>
                             <constraint firstAttribute="bottom" secondItem="CTM-ub-PDI" secondAttribute="bottom" id="QN5-r1-jq7"/>
                             <constraint firstItem="CTM-ub-PDI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WGl-uA-hpp"/>
-                            <constraint firstItem="CTM-ub-PDI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="n4F-Sg-Pqe"/>
+                            <constraint firstItem="CTM-ub-PDI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="n4F-Sg-Pqe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N4D-vV-Z5l"/>
+                    <connections>
+                        <outlet property="secondViewFirst" destination="Hyf-yr-51h" id="654-FN-Qmj"/>
+                        <outlet property="secondViewSecomd" destination="BHM-Gu-zi9" id="tPc-pV-B5K"/>
+                        <outlet property="secondViewThird" destination="Hm4-jD-e4S" id="lAT-zd-EOB"/>
+                        <outlet property="trybutton" destination="2iD-pF-60H" id="FSa-k8-d63"/>
+                        <outlet property="viewBackGround" destination="CTM-ub-PDI" id="DKn-I2-nbX"/>
+                        <outlet property="viewfirst" destination="eMD-a5-0Lf" id="Egr-U4-cuv"/>
+                        <outlet property="viewsecond" destination="sLL-GD-S8T" id="QFl-fW-TtE"/>
+                        <outlet property="viewthird" destination="RvE-fB-h0w" id="hgS-e2-dKn"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="114.50892857142857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jBp-uz-weq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7AS-p9-4Ov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="duZ-Lx-Rss" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cnw-89-ngZ">
@@ -143,6 +152,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vnR-m7-Mhj"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7AS-p9-4Ov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
         </scene>
