@@ -6,10 +6,14 @@
 //
 import UIKit
 class DetailFlowVC: UIViewController {
+ 
+    
 
+    @IBOutlet weak var tableViewYoutube: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
+        
     }
     
     @IBAction func detailbutton(_ sender: Any) {
@@ -18,7 +22,15 @@ class DetailFlowVC: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    
 }
+
+//extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
+//
+//}
+
+
+
 //extension DetailFlowVC: StoryboardInstantiate {
 //    static var storyboardType: StoryboardType { return .DetailFlow }
 //}

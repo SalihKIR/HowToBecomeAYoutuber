@@ -9,18 +9,18 @@ import UIKit
 
 class FirstFlowVC: UIViewController {
     
-    @IBOutlet weak var trybutton: UIButton!
-    @IBOutlet weak var viewBackGround: UIView!
-    @IBOutlet weak var viewfirst: UIView!
-    @IBOutlet weak var viewsecond: UIView!
-    @IBOutlet weak var viewthird: UIView!
-    @IBOutlet weak var secondViewFirst: UIView!
-    @IBOutlet weak var secondViewSecomd: UIView!
-    @IBOutlet weak var secondViewThird: UIView!
+//    @IBOutlet weak var trybutton: UIButton!
+//    @IBOutlet weak var viewBackGround: UIView!
+//    @IBOutlet weak var viewfirst: UIView!
+//    @IBOutlet weak var viewsecond: UIView!
+//    @IBOutlet weak var viewthird: UIView!
+//    @IBOutlet weak var secondViewFirst: UIView!
+//    @IBOutlet weak var secondViewSecomd: UIView!
+//    @IBOutlet weak var secondViewThird: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "iphonewalpage")!)
+       // viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "iphonewalpage")!)
         navigationItem.title = "* Sende YOU TUBER olabilirsin *"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
@@ -32,18 +32,18 @@ class FirstFlowVC: UIViewController {
         let vc = DetailFlowVC.instantiate(storyboard: .detailFlow)
         navigationController?.setNavigationBarHidden(true, animated: true)
         navigationController?.pushViewController(vc, animated: true)
-        
+        // trybutton.titleLabel!.text = "Next"
     }
     
     func settingsView(){
-        viewfirst.layer.cornerRadius = 20
-        viewsecond.layer.cornerRadius = 20
-        viewthird.layer.cornerRadius = 20
-        trybutton.layer.cornerRadius = 20
-        secondViewFirst.layer.cornerRadius = 20
-        secondViewSecomd.layer.cornerRadius = 20
-        secondViewThird.layer.cornerRadius = 20
-        trybutton.titleLabel?.text = "Next"
+//        viewfirst.layer.cornerRadius = 20
+//        viewsecond.layer.cornerRadius = 20
+//        viewthird.layer.cornerRadius = 20
+//        trybutton.layer.cornerRadius = 20
+//        secondViewFirst.layer.cornerRadius = 20
+//        secondViewSecomd.layer.cornerRadius = 20
+//        secondViewThird.layer.cornerRadius = 20
+//        trybutton.titleLabel!.text = "Next"
     }
     
 }
