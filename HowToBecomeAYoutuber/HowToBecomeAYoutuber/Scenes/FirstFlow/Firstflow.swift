@@ -21,7 +21,7 @@ class FirstFlowVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "youtube.jpeg")!)
-        navigationItem.title = "* Sende YOU TUBER olabilirsin *"
+        navigationItem.title = "YOU Tuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
     }
@@ -30,7 +30,7 @@ class FirstFlowVC: UIViewController {
 
         //let vc = DetailFlowVC.instantiate()
         let vc = DetailFlowVC.instantiate(storyboard: .detailFlow)
-        navigationController?.setNavigationBarHidden(true, animated: true)
+       // navigationController?.setNavigationBarHidden(true, animated: true)
         navigationController?.pushViewController(vc, animated: true)
         // trybutton.titleLabel!.text = "Next"
     }

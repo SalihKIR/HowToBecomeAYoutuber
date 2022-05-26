@@ -8,7 +8,9 @@
 import UIKit
 
 class DetailFlowCell: UITableViewCell {
-
+    @IBOutlet weak var cellView: UIView!
+    @IBOutlet weak var cellLabel: UILabel!
+    @IBOutlet weak var cellİmageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +22,13 @@ class DetailFlowCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+}
+extension DetailFlowCell {
+    static var identifier: String {
+        return String(describing: self)
+    }
+    
+    static var nibName: UINib {
+        return UINib(nibName: identifier, bundle: nil)
+    }
 }
