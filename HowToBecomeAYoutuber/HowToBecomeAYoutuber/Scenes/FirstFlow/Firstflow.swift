@@ -46,6 +46,7 @@ class FirstFlowVC: UIViewController {
         trybutton.titleLabel!.text = "Next"
     }
     
+    
 }
 
 //extension FirstFlowVC: StoryboardInstantiate {

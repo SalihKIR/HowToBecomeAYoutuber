@@ -47,6 +47,7 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        tableView.layer.cornerRadius = 10
         let youtubecell = tableViewYoutube.dequeueReusableCell(withIdentifier: DetailFlowCell.identifier, for: indexPath) as! DetailFlowCell
         return youtubecell
     }
@@ -55,7 +56,10 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
         let explanation = ExplanationFlowVc.instantiate(storyboard: .explanation)
         navigationController?.pushViewController(explanation, animated: true)
     }
-  
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    }
+    
     
     
 }

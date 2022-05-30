@@ -3,26 +3,37 @@
 //  HowToBecomeAYoutuber
 //
 //  Created by Salih KIR on 24.05.2022.
-//
+////"https://apps.furkansandal.com/youtuber_app_v1/show_json_ercument.php"
 
 import Foundation
 import UIKit
 
-class NetworkManager{
 
-    static let upComing = "https://apps.furkansandal.com/youtuber_app_v1/show_json_ercument.php"
+let network = NetworkManager()
 
-    func getUpcoming( completion: @escaping (Lesson?)->()){
-        let reponse = URLSession.shared
-        let task = reponse.dataTask(with: upComing!) { data, response, error in
-            guard let lessons = response.value else{
-                completion(nil)
-                print(response.error)
-                return
+final class NetworkManager{
+    
+    init() { }
+    
+    func getData<T: Codable>(url: String, completion: @escaping (T?, String?) -> Void) {
+            let preparedURL = URL(string: url)
+            let task = URLSession.shared.dataTask(with: preparedURL!) { (data, res, error) in
+                DispatchQueue.main.async {
+                    if let data = data {
+                        do {
+                            let responseObject = try JSONDecoder().decode(T.self, from: data)
+                            completion(responseObject, nil)
+                        }catch{
+                            print("Data Boş", error, error.localizedDescription)
+                        }
+                    }
+                }
             }
-            completion(lessons)
+            task.resume()
         }
         
-       
-    }
+        func postData<T: Codable, K: Encodable>(url: String, params: K, completion: @escaping (T?) -> Void) {
+            
+        }
+
 }
