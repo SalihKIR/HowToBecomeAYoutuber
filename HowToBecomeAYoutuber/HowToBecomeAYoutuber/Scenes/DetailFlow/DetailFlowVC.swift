@@ -5,14 +5,15 @@
 //  Created by Salih KIR on 19.05.2022.
 //
 import UIKit
-class DetailFlowVC: UIViewController {
- 
-    
+public var deneme = "something"
 
+class DetailFlowVC: UIViewController {
+    
     @IBOutlet weak var tableViewYoutube: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewYoutube.delegate = self
+        
         tableViewYoutube.dataSource = self
         tableViewYoutube.register(DetailFlowCell.nibName, forCellReuseIdentifier: DetailFlowCell.identifier)
     }
@@ -22,7 +23,7 @@ class DetailFlowVC: UIViewController {
         //let vcc = FirstFlowVC.instantiate(storyboard: .main)
         let testUIbarbutton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(clickButton))
         self.navigationItem.rightBarButtonItem  = testUIbarbutton
-      
+        
     }
    
            //let testUIBarButtonItem = UIBarButtonItem(image: UIImage(named: "test.png"), style: .plain, target: self, action: #selector(self.clickButton))
@@ -54,11 +55,15 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let explanation = ExplanationFlowVc.instantiate(storyboard: .explanation)
+        
         navigationController?.pushViewController(explanation, animated: true)
+        
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
+   
+    
     
     
     

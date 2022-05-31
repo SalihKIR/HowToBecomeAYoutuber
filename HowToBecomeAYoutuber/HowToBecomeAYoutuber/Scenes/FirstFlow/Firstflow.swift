@@ -9,6 +9,8 @@ import UIKit
 
 class FirstFlowVC: UIViewController {
     
+    @IBOutlet weak var labelViewComplatedNumber: UILabel!
+    @IBOutlet weak var labelViewCompleted: UILabel!
     @IBOutlet weak var trybutton: UIButton!
     @IBOutlet weak var viewBackGround: UIView!
     @IBOutlet weak var viewfirst: UIView!
@@ -24,6 +26,7 @@ class FirstFlowVC: UIViewController {
         navigationItem.title = "YOU Tuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
+        
     }
 
     @IBAction func firstbutton(_ sender: Any) {
@@ -44,9 +47,15 @@ class FirstFlowVC: UIViewController {
         secondViewSecomd.layer.cornerRadius = 20
         secondViewThird.layer.cornerRadius = 20
         trybutton.titleLabel!.text = "Next"
+        labelViewCompleted.text = "Tamamlanan Dersler = "
+        labelViewComplatedNumber.text = MyVariables.number
     }
     
     
+}
+
+struct MyVariables {
+    static var number = ""
 }
 
 //extension FirstFlowVC: StoryboardInstantiate {

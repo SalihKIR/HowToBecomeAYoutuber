@@ -7,8 +7,19 @@
 
 import Foundation
 
-class detailFlowVM{
-    
-    
+protocol DetailFlowVMProtocol: AnyObject{
     
 }
+
+protocol DetailFlowVMDelegate: DetailFlowVMProtocol{
+    var delegate: DetailFlowVmDelegateOutputs? {get set}
+    var lessons: Lesson? {get set}
+    func getData()
+}
+
+protocol DetailFlowVmDelegateOutputs: AnyObject{
+    func successHeader(_respons: Lesson)
+    func reloadTableView()
+}
+
+//x

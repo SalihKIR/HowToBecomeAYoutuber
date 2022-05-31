@@ -139,7 +139,6 @@
 		D4FDC2142836A77300F8F244 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				D4FDC21B2836A99C00F8F244 /* DetailFlowCell.xib */,
 				D468C784283D000900FEAE68 /* Router.swift */,
 			);
 			path = Router;
@@ -174,6 +173,7 @@
 		D4FDC2182836A85600F8F244 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				D4FDC21B2836A99C00F8F244 /* DetailFlowCell.xib */,
 				D4FDC21A2836A99C00F8F244 /* DetailFlowCell.swift */,
 			);
 			path = Cell;
