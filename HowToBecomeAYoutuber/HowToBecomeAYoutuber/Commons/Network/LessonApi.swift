@@ -8,17 +8,16 @@
 import Foundation
 
 
-protocol Network {
+protocol LessonApi {
     func getDownloadLesson(url: String, completion: @escaping (Lesson? , String?) -> Void)
 }
 
-extension Api:Network {
+extension Api: LessonApi {
     
  
     func getDownloadLesson(url: String, completion: @escaping (Lesson?, String?) -> Void) {
-        network.getData(url: url) { [weak self] (response: Lesson?, err: String? ) in
-            completion(response,err)
-        }
+        network.getData(url: url, completion: completion)
+        
     }
     
     

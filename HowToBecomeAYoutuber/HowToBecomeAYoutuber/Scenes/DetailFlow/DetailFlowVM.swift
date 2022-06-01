@@ -15,6 +15,7 @@ protocol DetailFlowVMDelegate: DetailFlowVMProtocol{
     var delegate: DetailFlowVmDelegateOutputs? {get set}
     var lessons: Lesson? {get set}
     func getData()
+    func postData()
 }
 
 protocol DetailFlowVmDelegateOutputs: AnyObject{
@@ -22,4 +23,13 @@ protocol DetailFlowVmDelegateOutputs: AnyObject{
     func reloadTableView()
 }
 
-//x
+class DetailFlowVCVM: DetailFlowVMProtocol{
+      var lessons: Lesson?
+      var delegate: DetailFlowVmDelegateOutputs?
+      var network: NetworkManager = NetworkManager()
+
+      func getData() {
+          //network.getData(url: String , completion: {(response,err) in
+      }
+    
+}

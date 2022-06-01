@@ -26,7 +26,12 @@ class FirstFlowVC: UIViewController {
         navigationItem.title = "YOU Tuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
-        
+        let network: LessonApi = Api()
+        network.getDownloadLesson(url: "https://apps.furkansandal.com/youtuber_app_v1/show_json_ercument.php", completion: {
+            [weak self] (response, error) in
+            
+        })
+
     }
 
     @IBAction func firstbutton(_ sender: Any) {
@@ -48,16 +53,9 @@ class FirstFlowVC: UIViewController {
         secondViewThird.layer.cornerRadius = 20
         trybutton.titleLabel!.text = "Next"
         labelViewCompleted.text = "Tamamlanan Dersler = "
-        labelViewComplatedNumber.text = MyVariables.number
+        
     }
     
     
 }
 
-struct MyVariables {
-    static var number = ""
-}
-
-//extension FirstFlowVC: StoryboardInstantiate {
-//    static var storyboardType: StoryboardType { return .FirstFlow }
-//}

@@ -14,10 +14,11 @@ let network = NetworkManager()
 final class NetworkManager{
     
     init() { }
+    let sesions = URLSession.shared
     
     func getData<T: Codable>(url: String, completion: @escaping (T?, String?) -> Void) {
             let preparedURL = URL(string: url)
-            let task = URLSession.shared.dataTask(with: preparedURL!) { (data, res, error) in
+            let task = sesions.dataTask(with: preparedURL!) { (data, res, error) in
                 DispatchQueue.main.async {
                     if let data = data {
                         do {

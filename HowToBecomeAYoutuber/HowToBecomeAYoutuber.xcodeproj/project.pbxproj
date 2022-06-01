@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D468C783283CFFE400FEAE68 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* Network.swift */; };
+		D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* LessonApi.swift */; };
 		D468C785283D000900FEAE68 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C784283D000900FEAE68 /* Router.swift */; };
 		D468C787283D07F300FEAE68 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C786283D07F300FEAE68 /* Api.swift */; };
 		D468C789283D091D00FEAE68 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C788283D091D00FEAE68 /* NetworkManager.swift */; };
 		D468C78B283D094800FEAE68 /* YouTubeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C78A283D094800FEAE68 /* YouTubeModel.swift */; };
 		D4AD138B28452BF00005B406 /* DetailFlowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD138A28452BF00005B406 /* DetailFlowVM.swift */; };
 		D4AD138D28452C360005B406 /* ExplanationFlowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD138C28452C360005B406 /* ExplanationFlowVM.swift */; };
+		D4AD1390284790B80005B406 /* DeveloperFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */; };
+		D4AD1392284790D30005B406 /* DeveloperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD1391284790D30005B406 /* DeveloperVC.swift */; };
 		D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F42836678100F8F244 /* AppDelegate.swift */; };
 		D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F62836678100F8F244 /* SceneDelegate.swift */; };
 		D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F82836678100F8F244 /* Firstflow.swift */; };
@@ -30,13 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D468C782283CFFE400FEAE68 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D468C782283CFFE400FEAE68 /* LessonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonApi.swift; sourceTree = "<group>"; };
 		D468C784283D000900FEAE68 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D468C786283D07F300FEAE68 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		D468C788283D091D00FEAE68 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D468C78A283D094800FEAE68 /* YouTubeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeModel.swift; sourceTree = "<group>"; };
 		D4AD138A28452BF00005B406 /* DetailFlowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowVM.swift; sourceTree = "<group>"; };
 		D4AD138C28452C360005B406 /* ExplanationFlowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationFlowVM.swift; sourceTree = "<group>"; };
+		D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeveloperFlow.storyboard; sourceTree = "<group>"; };
+		D4AD1391284790D30005B406 /* DeveloperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperVC.swift; sourceTree = "<group>"; };
 		D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToBecomeAYoutuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FDC1F42836678100F8F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FDC1F62836678100F8F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4AD138E2847905C0005B406 /* Developer */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD1393284790E90005B406 /* ajksdhaksjd */,
+				D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */,
+				D4AD1391284790D30005B406 /* DeveloperVC.swift */,
+			);
+			path = Developer;
+			sourceTree = "<group>";
+		};
+		D4AD1393284790E90005B406 /* ajksdhaksjd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ajksdhaksjd;
+			sourceTree = "<group>";
+		};
 		D4FDC1E82836678100F8F244 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +124,7 @@
 				D4FDC20A2836A5FC00F8F244 /* FirstFlow */,
 				D4FDC2092836A5E900F8F244 /* DetailFlow */,
 				D4FDC20B2836A60E00F8F244 /* ExplanationFlow */,
+				D4AD138E2847905C0005B406 /* Developer */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -155,7 +177,7 @@
 		D4FDC2162836A82C00F8F244 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D468C782283CFFE400FEAE68 /* Network.swift */,
+				D468C782283CFFE400FEAE68 /* LessonApi.swift */,
 				D468C786283D07F300FEAE68 /* Api.swift */,
 				D468C788283D091D00FEAE68 /* NetworkManager.swift */,
 			);
@@ -251,6 +273,7 @@
 				D4FDC2012836678300F8F244 /* LaunchScreen.storyboard in Resources */,
 				D4FDC21D2836A99C00F8F244 /* DetailFlowCell.xib in Resources */,
 				D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */,
+				D4AD1390284790B80005B406 /* DeveloperFlow.storyboard in Resources */,
 				D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */,
 				D4FDC20F2836A67400F8F244 /* DetailFlow.storyboard in Resources */,
 			);
@@ -265,11 +288,12 @@
 			files = (
 				D4FDC21F2836AABA00F8F244 /* Stroyboard+Extension.swift in Sources */,
 				D4FDC21C2836A99C00F8F244 /* DetailFlowCell.swift in Sources */,
-				D468C783283CFFE400FEAE68 /* Network.swift in Sources */,
+				D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */,
 				D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */,
 				D4AD138B28452BF00005B406 /* DetailFlowVM.swift in Sources */,
 				D468C789283D091D00FEAE68 /* NetworkManager.swift in Sources */,
 				D468C785283D000900FEAE68 /* Router.swift in Sources */,
+				D4AD1392284790D30005B406 /* DeveloperVC.swift in Sources */,
 				D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */,
 				D4AD138D28452C360005B406 /* ExplanationFlowVM.swift in Sources */,
 				D468C78B283D094800FEAE68 /* YouTubeModel.swift in Sources */,
