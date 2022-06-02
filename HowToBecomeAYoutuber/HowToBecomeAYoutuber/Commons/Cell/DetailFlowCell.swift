@@ -29,6 +29,7 @@ class DetailFlowCell: UITableViewCell {
 //        imageViewcell.layer.cornerRadius = 10
 //        labelViewcell.layer.cornerRadius = 10
         cellViewFirst.layer.cornerRadius = 10
+        labelViewcell.layer.cornerRadius = 10
         
         // Configure the view for the selected state
     }

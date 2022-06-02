@@ -41,7 +41,7 @@
                                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="MtN-eA-Vxp" secondAttribute="trailing" constant="5" id="j7e-YC-Lcm"/>
                                                     <constraint firstAttribute="bottom" secondItem="MtN-eA-Vxp" secondAttribute="bottom" constant="5" id="lve-du-uaw"/>
@@ -99,6 +99,7 @@
                 <outlet property="cellİmageView" destination="MtN-eA-Vxp" id="AZV-is-r0e"/>
                 <outlet property="cellLabel" destination="BtN-7r-dmF" id="KlG-PF-HRF"/>
                 <outlet property="cellViewFirst" destination="UVW-hP-ztv" id="fk4-ra-XU8"/>
+                <outlet property="emptyView" destination="iCe-wK-kER" id="Zae-aV-cm8"/>
                 <outlet property="imageViewcell" destination="n8m-Bu-a6I" id="8I9-jY-HCF"/>
                 <outlet property="labelViewcell" destination="W0K-4Z-92r" id="LdX-5h-i0b"/>
                 <outlet property="stackViewNear" destination="yKY-18-dBZ" id="4H4-oD-EuI"/>
@@ -113,9 +114,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
