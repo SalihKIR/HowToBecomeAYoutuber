@@ -36,6 +36,7 @@ class DetailFlowCell: UITableViewCell {
     
     func setData(data: Datum) {
         self.cellLabel.text = data.baslik
+        
     }
 }
 extension DetailFlowCell {

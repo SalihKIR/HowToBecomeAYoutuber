@@ -45,7 +45,8 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         tableView.layer.cornerRadius = 10
         let youtubecell = tableViewYoutube.dequeueReusableCell(withIdentifier: DetailFlowCell.identifier, for: indexPath) as! DetailFlowCell
-        youtubecell.setData(data: viewModel.data[indexPath.row])
+       // youtubecell.setData(data: viewModel.data[indexPath.row])
+        //youtubecell.cellLabel.text = viewModel.data[indexPath.row].baslik fonksiyon dışı çalıştırma için kullanılır.
         return youtubecell
     }
     
