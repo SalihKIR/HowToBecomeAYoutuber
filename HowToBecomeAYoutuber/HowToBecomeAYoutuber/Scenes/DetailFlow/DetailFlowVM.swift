@@ -13,23 +13,29 @@ protocol DetailFlowVMProtocol: AnyObject{
 
 protocol DetailFlowVMDelegate: DetailFlowVMProtocol{
     var delegate: DetailFlowVmDelegateOutputs? {get set}
-    var lessons: Lesson? {get set}
-    func getData()
-    func postData()
+    var data: [Datum] {get set}
 }
 
 protocol DetailFlowVmDelegateOutputs: AnyObject{
-    func successHeader(_respons: Lesson)
+   // func successHeader(_respons: Lesson)
     func reloadTableView()
 }
 
-class DetailFlowVCVM: DetailFlowVMProtocol{
-      var lessons: Lesson?
-      var delegate: DetailFlowVmDelegateOutputs?
-      var network: NetworkManager = NetworkManager()
-
-      func getData() {
-          //network.getData(url: String , completion: {(response,err) in
-      }
+class DetailFlowVM: DetailFlowVMProtocol{
+    var data: [Datum] = []
+    var delegate: DetailFlowVmDelegateOutputs?
+    var network: LessonApiProtocol = Api()
+    
+    let url: String = "https://apps.furkansandal.com/youtuber_app_v1/show_json_ercument.php"
+    func getLessonData() {
+        network.getDownloadLesson(url: url) { [weak self] (repo, err)  in
+            if let repo = repo {
+                self?.data = repo.data
+               
+            }
+            self?.delegate?.reloadTableView()
+        }
+        
+    }
     
 }

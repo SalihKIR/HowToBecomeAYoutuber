@@ -33,6 +33,10 @@ class DetailFlowCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
+    func setData(data: Datum) {
+        self.cellLabel.text = data.baslik
+    }
 }
 extension DetailFlowCell {
     static var identifier: String {

@@ -16,6 +16,7 @@
 		D4AD138D28452C360005B406 /* ExplanationFlowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD138C28452C360005B406 /* ExplanationFlowVM.swift */; };
 		D4AD1390284790B80005B406 /* DeveloperFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */; };
 		D4AD1392284790D30005B406 /* DeveloperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD1391284790D30005B406 /* DeveloperVC.swift */; };
+		D4AD13952847E7500005B406 /* FirstFlowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD13942847E74F0005B406 /* FirstFlowVM.swift */; };
 		D4FDC1F52836678100F8F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F42836678100F8F244 /* AppDelegate.swift */; };
 		D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F62836678100F8F244 /* SceneDelegate.swift */; };
 		D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDC1F82836678100F8F244 /* Firstflow.swift */; };
@@ -41,6 +42,7 @@
 		D4AD138C28452C360005B406 /* ExplanationFlowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationFlowVM.swift; sourceTree = "<group>"; };
 		D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeveloperFlow.storyboard; sourceTree = "<group>"; };
 		D4AD1391284790D30005B406 /* DeveloperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperVC.swift; sourceTree = "<group>"; };
+		D4AD13942847E74F0005B406 /* FirstFlowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlowVM.swift; sourceTree = "<group>"; };
 		D4FDC1F12836678100F8F244 /* HowToBecomeAYoutuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToBecomeAYoutuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FDC1F42836678100F8F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FDC1F62836678100F8F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				D4FDC1FA2836678100F8F244 /* Main.storyboard */,
 				D4FDC1F82836678100F8F244 /* Firstflow.swift */,
+				D4AD13942847E74F0005B406 /* FirstFlowVM.swift */,
 			);
 			path = FirstFlow;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				D4FDC20D2836A66300F8F244 /* DetailFlowVC.swift in Sources */,
 				D468C787283D07F300FEAE68 /* Api.swift in Sources */,
 				D4FDC1F72836678100F8F244 /* SceneDelegate.swift in Sources */,
+				D4AD13952847E7500005B406 /* FirstFlowVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
