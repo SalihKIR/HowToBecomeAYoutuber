@@ -28,10 +28,11 @@ class DetailFlowCell: UITableViewCell {
 //        stackViewNear.layer.cornerRadius = 10
 //        imageViewcell.layer.cornerRadius = 10
 //        labelViewcell.layer.cornerRadius = 10
-        cellViewFirst.layer.cornerRadius = 10
+        imageViewcell.layer.cornerRadius = 30
         //labelViewcell.roundCorners(with: .layerMinXMinYCorner, radius: 10)
-        labelViewcell.layer.cornerRadius = 20
+        labelViewcell.layer.cornerRadius = 30
         labelViewcell.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
+        imageViewcell.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
        // labelViewcell.roundCornerss(with: .layerMinXMaxYCorner, radius: 10)
         //labelViewcell.layer.cornerRadius = 10
         //labelViewcell.roundCorners(with: .layerMaxXMinYCorner, radius: 10)

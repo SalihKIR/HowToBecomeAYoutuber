@@ -6,13 +6,19 @@
 //
 
 import UIKit
-class ExplanationFlowVc: UIViewController {
+class ExplanationFlowVc: UIViewController, ExplationFlowDelegateOutputs {
+    func handleViewModelOutputs(_ viewModelOutputs: ExpalationFlowOutputs) {
+        <#code#>
+    }
+    
  
     
-
+    var viewModel: ExplanationFlowVM!
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.delegate = self
+        viewModel.getLessonData()
         
     }
     

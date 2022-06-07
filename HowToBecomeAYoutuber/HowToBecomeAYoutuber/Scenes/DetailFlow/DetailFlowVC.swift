@@ -67,18 +67,6 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     
 }
 extension DetailFlowVC {
-    
-    
-    func donebutton(){
-        //let vcc = FirstFlowVC.instantiate(storyboard: .main)
-        let testUIbarbutton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(clickButton))
-        self.navigationItem.rightBarButtonItem  = testUIbarbutton
-        
-    }
-   
-           //let testUIBarButtonItem = UIBarButtonItem(image: UIImage(named: "test.png"), style: .plain, target: self, action: #selector(self.clickButton))
-          
-       
       @objc func clickButton(){
           print("button click")
           navigationItem.setLeftBarButton(UIBarButtonItem(barButtonSystemItem: .done, target: self, action: nil), animated: true)
