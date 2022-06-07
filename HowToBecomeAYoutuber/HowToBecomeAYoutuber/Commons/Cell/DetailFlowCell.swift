@@ -29,7 +29,19 @@ class DetailFlowCell: UITableViewCell {
 //        imageViewcell.layer.cornerRadius = 10
 //        labelViewcell.layer.cornerRadius = 10
         cellViewFirst.layer.cornerRadius = 10
-        labelViewcell.layer.cornerRadius = 10
+        //labelViewcell.roundCorners(with: .layerMinXMinYCorner, radius: 10)
+        labelViewcell.layer.cornerRadius = 20
+        labelViewcell.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
+       // labelViewcell.roundCornerss(with: .layerMinXMaxYCorner, radius: 10)
+        //labelViewcell.layer.cornerRadius = 10
+        //labelViewcell.roundCorners(with: .layerMaxXMinYCorner, radius: 10)
+        //labelViewcell.roundCorners(corners: .topLeft , radius: 10)
+        //labelViewcell.roundCorners(corners: .bottomLeft, radius: 10)
+        //labelViewcell.round(corners: .topLeft, radius: 10)
+//        labelViewcell.round(corners: .bottomLeft, .topLeft , radius: 10 , radius2: 10)
+        //labelViewcell.roundCorners(corners: .topRight, radius: 10)
+       // imageViewcell.roundCorners(with: .layerMinXMaxYCorner, radius: 10)
+        //labelViewcell.roundCorners(corners: [.topLeft, .topRight], radius: 30)
         
         // Configure the view for the selected state
     }
@@ -49,3 +61,37 @@ extension DetailFlowCell {
         return UINib(nibName: identifier, bundle: nil)
     }
 }
+extension UIView {
+    func roundCornerss(with CACornerMask: CACornerMask, radius: CGFloat){
+        self.layer.cornerRadius = radius
+        self.layer.maskedCorners = [CACornerMask]
+    }
+
+}
+extension UIView {
+    func roundCorners(with CACornerMask: CACornerMask, radius: CGFloat){
+        self.layer.cornerRadius = radius
+        self.layer.maskedCorners = [CACornerMask]
+    }
+
+}
+
+
+//extension UIView {
+//   func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+//        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+//        let mask = CAShapeLayer()
+//        mask.path = path.cgPath
+//        layer.mask = mask
+//    }
+//}
+
+//extension UIView {
+//    func round(corners: UIRectCorner ,corners2: UIRectCorner , radius: CGFloat , radius2: CGFloat) {
+//    let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+//    let mask = CAShapeLayer()
+//    mask.path = path.cgPath
+//    self.layer.mask = mask
+//  }
+//}
+
