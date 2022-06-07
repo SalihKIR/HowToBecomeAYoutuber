@@ -7,11 +7,10 @@
 
 import UIKit
 class ExplanationFlowVc: UIViewController, ExplationFlowDelegateOutputs {
-    func handleViewModelOutputs(_ viewModelOutputs: ExpalationFlowOutputs) {
-        <#code#>
-    }
     
  
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var contentsLabel: UILabel!
     
     var viewModel: ExplanationFlowVM!
  

@@ -53,26 +53,14 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let explanation = ExplanationFlowVc.instantiate(storyboard: .explanation)
-        
+        explanation.titleLabel.text = viewModel.data[indexPath.row].baslik
+        explanation.contentsLabel.text = viewModel.data[indexPath.row].icerik
         navigationController?.pushViewController(explanation, animated: true)
         
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
-   
-    
-    
-    
-    
-}
-extension DetailFlowVC {
-      @objc func clickButton(){
-          print("button click")
-          navigationItem.setLeftBarButton(UIBarButtonItem(barButtonSystemItem: .done, target: self, action: nil), animated: true)
-          navigationController?.setNavigationBarHidden(true, animated: true)
-          navigationController?.popViewController(animated: true)
-        }
 }
 //Fotoraf verilerine rahatça ulaştığımız alan
 extension UIImageView {
