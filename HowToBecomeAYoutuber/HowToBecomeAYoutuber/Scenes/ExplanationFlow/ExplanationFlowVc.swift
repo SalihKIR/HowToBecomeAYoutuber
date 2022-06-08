@@ -7,27 +7,33 @@
 
 import UIKit
 import WebKit
-class ExplanationFlowVc: UIViewController, ExplationFlowDelegateOutputs {
+class ExplanationFlowVc: UIViewController, ExplationFlowDelegateOutputs, WKNavigationDelegate {
   
     @IBOutlet weak var wkpData: WKWebView!
     var viewModel: ExplanationFlowVM!
     var data: Datum?
+   
     
  
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.delegate = self
+        wkpData.navigationDelegate = self
         viewModel.getLessonData()
+        webView(wkpData)
         wkpData.loadHTMLString(data?.icerik ?? "", baseURL: nil)
     }
 
     @IBAction func toorootbutton(_ sender: Any) {
         navigationController?.popToRootViewController(animated: true)
     }
-    
+    func webView(_ webview: WKWebView) {
+        let js = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='100%'"//dual size
+        webview.evaluateJavaScript(js, completionHandler: nil)
+    }
+
 }
 
-   
 
 extension Data {
     var html2AttributedString: NSAttributedString? {
