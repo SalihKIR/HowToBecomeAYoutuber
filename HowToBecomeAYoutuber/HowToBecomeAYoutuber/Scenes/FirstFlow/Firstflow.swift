@@ -58,17 +58,19 @@ class FirstFlowVC: UIViewController {
     }
     
     @IBAction func finallyButton(_ sender: Any) {
-//        let develop = DeveloperVC.instantiate(storyboard: .developer)
-//        navigationController?.pushViewController(develop, animated: true)
-        AppRouter.shared.showDeveloperPage(self.navigationController)
+
     }
     @IBAction func rondomButton(_ sender: Any) {
+        AppRouter.shared.showRandomPage(self.navigationController)
     }
     @IBAction func shareButton(_ sender: Any) {
     }
     @IBAction func appAboutButton(_ sender: Any) {
     }
     @IBAction func developerButton(_ sender: Any) {
+        //        let develop = DeveloperVC.instantiate(storyboard: .developer)
+        //        navigationController?.pushViewController(develop, animated: true)
+                AppRouter.shared.showDeveloperPage(self.navigationController)
     }
     
     

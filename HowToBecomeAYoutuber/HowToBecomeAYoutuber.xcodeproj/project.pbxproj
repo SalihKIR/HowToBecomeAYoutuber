@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D436878B2850CB5B005528A1 /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436878A2850CB5B005528A1 /* RandomVC.swift */; };
+		D436878D2850CB77005528A1 /* RandomFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436878C2850CB77005528A1 /* RandomFlow.storyboard */; };
+		D436878F2850DB1E005528A1 /* RandomVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436878E2850DB1E005528A1 /* RandomVM.swift */; };
 		D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* LessonApi.swift */; };
 		D468C785283D000900FEAE68 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C784283D000900FEAE68 /* Router.swift */; };
 		D468C787283D07F300FEAE68 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C786283D07F300FEAE68 /* Api.swift */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D436878A2850CB5B005528A1 /* RandomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
+		D436878C2850CB77005528A1 /* RandomFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RandomFlow.storyboard; sourceTree = "<group>"; };
+		D436878E2850DB1E005528A1 /* RandomVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVM.swift; sourceTree = "<group>"; };
 		D468C782283CFFE400FEAE68 /* LessonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonApi.swift; sourceTree = "<group>"; };
 		D468C784283D000900FEAE68 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D468C786283D07F300FEAE68 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
@@ -71,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D43687892850C3E3005528A1 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				D436878C2850CB77005528A1 /* RandomFlow.storyboard */,
+				D436878A2850CB5B005528A1 /* RandomVC.swift */,
+				D436878E2850DB1E005528A1 /* RandomVM.swift */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
 		D4AD138E2847905C0005B406 /* Developer */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +135,7 @@
 				D4FDC2092836A5E900F8F244 /* DetailFlow */,
 				D4FDC20B2836A60E00F8F244 /* ExplanationFlow */,
 				D4AD138E2847905C0005B406 /* Developer */,
+				D43687892850C3E3005528A1 /* Random */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -269,6 +286,7 @@
 				D4FDC21D2836A99C00F8F244 /* DetailFlowCell.xib in Resources */,
 				D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */,
 				D4AD1390284790B80005B406 /* DeveloperFlow.storyboard in Resources */,
+				D436878D2850CB77005528A1 /* RandomFlow.storyboard in Resources */,
 				D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */,
 				D4FDC20F2836A67400F8F244 /* DetailFlow.storyboard in Resources */,
 			);
@@ -286,9 +304,11 @@
 				D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */,
 				D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */,
 				D4AD138B28452BF00005B406 /* DetailFlowVM.swift in Sources */,
+				D436878B2850CB5B005528A1 /* RandomVC.swift in Sources */,
 				D468C789283D091D00FEAE68 /* NetworkManager.swift in Sources */,
 				D468C785283D000900FEAE68 /* Router.swift in Sources */,
 				D4AD1392284790D30005B406 /* DeveloperVC.swift in Sources */,
+				D436878F2850DB1E005528A1 /* RandomVM.swift in Sources */,
 				D4FDC1F92836678100F8F244 /* Firstflow.swift in Sources */,
 				D4AD138D28452C360005B406 /* ExplanationFlowVM.swift in Sources */,
 				D468C78B283D094800FEAE68 /* YouTubeModel.swift in Sources */,

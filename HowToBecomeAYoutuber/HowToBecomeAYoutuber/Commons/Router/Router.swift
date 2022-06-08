@@ -32,6 +32,10 @@ final class AppRouter {
     func showDeveloperPage(_ navigationController: UINavigationController?){
         let vc = DeveloperVC.instantiate(storyboard: .developer)
         navigationController?.pushViewController(vc, animated: true)
+    }
+    func showRandomPage(_ navigationController: UINavigationController?){
+        let vc = RandomVC.instantiate(storyboard: .random)
+        navigationController?.pushViewController(vc, animated: true)
         
     }
     
