@@ -11,7 +11,7 @@ import WebKit
 class RandomVC: UIViewController , WKNavigationDelegate{
     @IBOutlet weak var webViewKit: WKWebView!
     var viewmodel: RandomFlowVm!
-    var data: Datum?
+    var data: Datum!
     let headerString = "<head><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'></head>"
     
     
@@ -19,8 +19,16 @@ class RandomVC: UIViewController , WKNavigationDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        webViewKit.loadHTMLString(headerString + data!.icerik, baseURL: nil)
         
+        webViewKit.loadHTMLString(headerString + data.icerik, baseURL: nil)
     }
     
+}
+
+extension Array {
+    func randomItem() -> Element? {
+        if isEmpty { return nil }
+        let index = Int(arc4random_uniform(UInt32(self.count)))
+        return self[index]
+    }
 }

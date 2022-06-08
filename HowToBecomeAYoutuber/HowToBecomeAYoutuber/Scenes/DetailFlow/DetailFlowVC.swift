@@ -48,6 +48,7 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
         youtubecell.setData(data: viewModel.data[indexPath.row])
         //youtubecell.cellLabel.text = viewModel.data[indexPath.row].baslik fonksiyon dışı çalıştırma için kullanılır.
         youtubecell.cellİmageView.downloaded(from: viewModel.data[indexPath.row].icon)
+
         return youtubecell
     }
     
@@ -62,10 +63,12 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
-    func randomselect(){
+    
         
-    }
+    
+
 }
+
 //Fotoraf verilerine rahatça ulaştığımız alan
 extension UIImageView {
     func downloaded(from url: URL, contentMode mode: ContentMode = .scaleAspectFit) {

@@ -7,10 +7,8 @@
 
 import UIKit
 
-class FirstFlowVC: UIViewController {
-    
+class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
 
-    @IBOutlet weak var trybutton: UIButton!
     @IBOutlet weak var viewBackGround: UIView!
     @IBOutlet weak var viewfirst: UIView!
     @IBOutlet weak var viewsecond: UIView!
@@ -24,6 +22,8 @@ class FirstFlowVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.delegate = self
+        viewModel.getLessonData()
        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "youtube.jpeg")!)
         navigationItem.title = "YOU Tuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
@@ -61,7 +61,8 @@ class FirstFlowVC: UIViewController {
 
     }
     @IBAction func rondomButton(_ sender: Any) {
-        AppRouter.shared.showRandomPage(self.navigationController)
+        guard let data = viewModel.data.randomElement() else {return}
+        AppRouter.shared.showRandomPage(self.navigationController, data: data)
     }
     @IBAction func shareButton(_ sender: Any) {
     }

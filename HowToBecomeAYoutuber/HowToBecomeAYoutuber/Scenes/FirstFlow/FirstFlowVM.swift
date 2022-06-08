@@ -14,12 +14,13 @@ protocol FirstFlowVMProtocol {
 
 protocol FirstFlowVMDelegate: FirstFlowVMProtocol {
     var delegate: FirstFlowDelegateOutputs? { get set }
-    var lesson: Lesson? {get set}
+   // var lesson: Lesson? {get set}
+    var data: [Datum] {get set}
     
 }
 
 protocol FirstFlowDelegateOutputs: AnyObject {
-    func handleViewModelOutputs(_ viewModelOutputs: FirstFlowOutputs )
+    //func handleViewModelOutputs(_ viewModelOutputs: FirstFlowOutputs )
 }
 
 enum FirstFlowOutputs {
@@ -28,22 +29,23 @@ enum FirstFlowOutputs {
 }
 
 class FirstFlowVM: FirstFlowVMDelegate{
-    var lesson: Lesson?
+    var data: [Datum] = []
     var delegate: FirstFlowDelegateOutputs?
     let network: LessonApiProtocol = Api()
     let url: String = "https://apps.furkansandal.com/youtuber_app_v1/show_json_ercument.php"
     func getLessonData() {
         network.getDownloadLesson(url: url) { [weak self] (repo, err)  in
-            if let repo = repo {
-                self?.lesson = repo
-                self?.delegate?.handleViewModelOutputs(.succes(repo))
-            }
+
+                if let repo = repo {
+                    self?.data = repo.data
+                   
+                }
         }
     }
     
     
-      private func handleViewModelOutputs(_ type: FirstFlowOutputs) {
-          self.delegate?.handleViewModelOutputs(type)
-      }
+//      private func handleViewModelOutputs(_ type: FirstFlowOutputs) {
+//          self.delegate?.handleViewModelOutputs(type)
+//      }
 }
 
