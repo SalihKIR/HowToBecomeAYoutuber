@@ -8,7 +8,7 @@
 import Foundation
 
 protocol DetailFlowVMProtocol: AnyObject{
-    
+   
 }
 
 protocol DetailFlowVMDelegate: DetailFlowVMProtocol{
@@ -21,7 +21,7 @@ protocol DetailFlowVmDelegateOutputs: AnyObject{
     func reloadTableView()
 }
 
-class DetailFlowVM: DetailFlowVMProtocol{
+class DetailFlowVM: DetailFlowVMDelegate{
     var data: [Datum] = []
     var delegate: DetailFlowVmDelegateOutputs?
     var network: LessonApiProtocol = Api()

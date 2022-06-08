@@ -52,10 +52,11 @@ extension DetailFlowVC: UITableViewDelegate , UITableViewDataSource  {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let explanation = ExplanationFlowVc.instantiate(storyboard: .explanation)
-        explanation.titleLabel.text = viewModel.data[indexPath.row].baslik
-        explanation.contentsLabel.text = viewModel.data[indexPath.row].icerik
-        navigationController?.pushViewController(explanation, animated: true)
+//        let explanation = ExplanationFlowVc.instantiate(storyboard: .explanation)
+//        explanation.titleLabel.text = viewModel.data[indexPath.row].baslik
+//        explanation.contentsLabel.text = viewModel.data[indexPath.row].icerik
+//        navigationController?.pushViewController(explanation, animated: true)
+        AppRouter.shared.showExpalationPage(self.navigationController, data: viewModel.data[indexPath.row])
         
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

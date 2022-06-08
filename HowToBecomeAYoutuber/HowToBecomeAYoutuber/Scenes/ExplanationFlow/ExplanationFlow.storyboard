@@ -16,39 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yLa-NM-EMd">
-                                <rect key="frame" x="16" y="44" width="382" height="572"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZB-a0-oRM">
-                                        <rect key="frame" x="8" y="20" width="366" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Waa-OX-6qM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4p-4M-iDN">
-                                        <rect key="frame" x="8" y="80" width="366" height="342"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="vZB-a0-oRM" secondAttribute="trailing" constant="8" id="AKe-Ku-fui"/>
-                                    <constraint firstAttribute="height" constant="572" id="Ew2-eE-OZo"/>
-                                    <constraint firstAttribute="bottom" secondItem="E4p-4M-iDN" secondAttribute="bottom" constant="150" id="LQq-vL-JyS"/>
-                                    <constraint firstItem="E4p-4M-iDN" firstAttribute="top" secondItem="yLa-NM-EMd" secondAttribute="top" constant="80" id="Tps-b6-B00"/>
-                                    <constraint firstItem="E4p-4M-iDN" firstAttribute="leading" secondItem="yLa-NM-EMd" secondAttribute="leading" constant="8" id="bdy-sf-gtc"/>
-                                    <constraint firstItem="vZB-a0-oRM" firstAttribute="top" secondItem="yLa-NM-EMd" secondAttribute="top" constant="20" id="msg-fo-14y"/>
-                                    <constraint firstItem="vZB-a0-oRM" firstAttribute="leading" secondItem="yLa-NM-EMd" secondAttribute="leading" constant="8" id="oi5-mc-b5h"/>
-                                    <constraint firstAttribute="trailing" secondItem="E4p-4M-iDN" secondAttribute="trailing" constant="8" id="unv-aC-ZK1"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRF-CI-OZh">
                                 <rect key="frame" x="16" y="742" width="382" height="70"/>
                                 <constraints>
@@ -60,21 +27,29 @@
                                     <action selector="toorootbutton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="84d-5x-cko"/>
                                 </connections>
                             </button>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAY-Ej-uXz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="698"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="yLa-NM-EMd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Q8g-eZ-i68"/>
+                            <constraint firstItem="fRF-CI-OZh" firstAttribute="top" secondItem="qAY-Ej-uXz" secondAttribute="bottom" id="0xc-tC-8ss"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qAY-Ej-uXz" secondAttribute="trailing" id="5OP-HK-fI9"/>
                             <constraint firstItem="fRF-CI-OZh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="QHo-rW-4Wy"/>
+                            <constraint firstItem="qAY-Ej-uXz" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="S6F-e4-wW2"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="fRF-CI-OZh" secondAttribute="bottom" constant="50" id="YM5-xe-Ksf"/>
-                            <constraint firstItem="yLa-NM-EMd" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="cG4-Iz-kax"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yLa-NM-EMd" secondAttribute="trailing" constant="16" id="kJI-2x-ldu"/>
+                            <constraint firstItem="qAY-Ej-uXz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pLx-HX-wwx"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fRF-CI-OZh" secondAttribute="trailing" constant="16" id="rxe-Xo-QWq"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="contentsLabel" destination="E4p-4M-iDN" id="oKN-Ou-AoD"/>
-                        <outlet property="titleLabel" destination="vZB-a0-oRM" id="mmk-6c-Bvs"/>
+                        <outlet property="wkpData" destination="qAY-Ej-uXz" id="TiF-kQ-jRz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -85,15 +60,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -22,9 +22,10 @@ final class AppRouter {
         vc.viewModel  = vm 
         navigationController?.pushViewController(vc, animated: true)
     }
-    func showExpalationPage(_ navigationController: UINavigationController?){
+    func showExpalationPage(_ navigationController: UINavigationController?, data: Datum) {
         let vc = ExplanationFlowVc.instantiate(storyboard: .explanation)
         let vm = ExplanationFlowVM()
+        vc.data = data
         vc.viewModel = vm
         navigationController?.pushViewController(vc, animated: true)
     }

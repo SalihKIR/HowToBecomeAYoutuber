@@ -27,7 +27,7 @@ protocol ExplationFlowDelegateOutputs: AnyObject{
 //
 //}
 
-class ExplanationFlowVM {
+class ExplanationFlowVM: ExplationFlowVMDelegate{
     //var lesson: Lesson?
     var data: [Datum] = []
     var delegate: ExplationFlowDelegateOutputs?
