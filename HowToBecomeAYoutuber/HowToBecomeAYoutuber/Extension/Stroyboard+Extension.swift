@@ -13,6 +13,7 @@ public enum StoryboardNames: String {
     case main = "Main"
     case detailFlow = "DetailFlow"
     case explanation = "ExplanationFlow"
+    case developer = "DeveloperFlow"
 }
 
 protocol StoryboardSettings {

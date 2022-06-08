@@ -29,5 +29,10 @@ final class AppRouter {
         vc.viewModel = vm
         navigationController?.pushViewController(vc, animated: true)
     }
+    func showDeveloperPage(_ navigationController: UINavigationController?){
+        let vc = DeveloperVC.instantiate(storyboard: .developer)
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
 }

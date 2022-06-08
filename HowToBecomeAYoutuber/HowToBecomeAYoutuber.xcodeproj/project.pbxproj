@@ -74,18 +74,10 @@
 		D4AD138E2847905C0005B406 /* Developer */ = {
 			isa = PBXGroup;
 			children = (
-				D4AD1393284790E90005B406 /* ajksdhaksjd */,
 				D4AD138F284790B80005B406 /* DeveloperFlow.storyboard */,
 				D4AD1391284790D30005B406 /* DeveloperVC.swift */,
 			);
 			path = Developer;
-			sourceTree = "<group>";
-		};
-		D4AD1393284790E90005B406 /* ajksdhaksjd */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ajksdhaksjd;
 			sourceTree = "<group>";
 		};
 		D4FDC1E82836678100F8F244 = {
