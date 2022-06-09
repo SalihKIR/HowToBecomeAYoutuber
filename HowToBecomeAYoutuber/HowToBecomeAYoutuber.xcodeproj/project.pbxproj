@@ -10,6 +10,9 @@
 		D436878B2850CB5B005528A1 /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436878A2850CB5B005528A1 /* RandomVC.swift */; };
 		D436878D2850CB77005528A1 /* RandomFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436878C2850CB77005528A1 /* RandomFlow.storyboard */; };
 		D436878F2850DB1E005528A1 /* RandomVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436878E2850DB1E005528A1 /* RandomVM.swift */; };
+		D43687922851045F005528A1 /* FinallyLesson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43687912851045F005528A1 /* FinallyLesson.storyboard */; };
+		D436879428510470005528A1 /* FinallyLessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436879328510470005528A1 /* FinallyLessonVC.swift */; };
+		D436879628510895005528A1 /* FinallyLessonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436879528510895005528A1 /* FinallyLessonVM.swift */; };
 		D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* LessonApi.swift */; };
 		D468C785283D000900FEAE68 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C784283D000900FEAE68 /* Router.swift */; };
 		D468C787283D07F300FEAE68 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C786283D07F300FEAE68 /* Api.swift */; };
@@ -39,6 +42,9 @@
 		D436878A2850CB5B005528A1 /* RandomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
 		D436878C2850CB77005528A1 /* RandomFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RandomFlow.storyboard; sourceTree = "<group>"; };
 		D436878E2850DB1E005528A1 /* RandomVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVM.swift; sourceTree = "<group>"; };
+		D43687912851045F005528A1 /* FinallyLesson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinallyLesson.storyboard; sourceTree = "<group>"; };
+		D436879328510470005528A1 /* FinallyLessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyLessonVC.swift; sourceTree = "<group>"; };
+		D436879528510895005528A1 /* FinallyLessonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyLessonVM.swift; sourceTree = "<group>"; };
 		D468C782283CFFE400FEAE68 /* LessonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonApi.swift; sourceTree = "<group>"; };
 		D468C784283D000900FEAE68 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D468C786283D07F300FEAE68 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
@@ -87,6 +93,16 @@
 			path = Random;
 			sourceTree = "<group>";
 		};
+		D43687902851041A005528A1 /* FinallyLesson */ = {
+			isa = PBXGroup;
+			children = (
+				D43687912851045F005528A1 /* FinallyLesson.storyboard */,
+				D436879328510470005528A1 /* FinallyLessonVC.swift */,
+				D436879528510895005528A1 /* FinallyLessonVM.swift */,
+			);
+			path = FinallyLesson;
+			sourceTree = "<group>";
+		};
 		D4AD138E2847905C0005B406 /* Developer */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,7 @@
 				D4FDC2192836A89000F8F244 /* Commons */,
 				D4FDC2172836A83A00F8F244 /* Extension */,
 				D4FDC2082836A31100F8F244 /* Scenes */,
+				D43687902851041A005528A1 /* FinallyLesson */,
 				D4FDC2152836A81300F8F244 /* Model */,
 				D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */,
 				D4FDC1FD2836678300F8F244 /* Assets.xcassets */,
@@ -286,6 +303,7 @@
 				D4FDC21D2836A99C00F8F244 /* DetailFlowCell.xib in Resources */,
 				D4FDC1FE2836678300F8F244 /* Assets.xcassets in Resources */,
 				D4AD1390284790B80005B406 /* DeveloperFlow.storyboard in Resources */,
+				D43687922851045F005528A1 /* FinallyLesson.storyboard in Resources */,
 				D436878D2850CB77005528A1 /* RandomFlow.storyboard in Resources */,
 				D4FDC1FC2836678100F8F244 /* Main.storyboard in Resources */,
 				D4FDC20F2836A67400F8F244 /* DetailFlow.storyboard in Resources */,
@@ -303,7 +321,9 @@
 				D4FDC21C2836A99C00F8F244 /* DetailFlowCell.swift in Sources */,
 				D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */,
 				D4FDC2132836A6F700F8F244 /* ExplanationFlowVc.swift in Sources */,
+				D436879428510470005528A1 /* FinallyLessonVC.swift in Sources */,
 				D4AD138B28452BF00005B406 /* DetailFlowVM.swift in Sources */,
+				D436879628510895005528A1 /* FinallyLessonVM.swift in Sources */,
 				D436878B2850CB5B005528A1 /* RandomVC.swift in Sources */,
 				D468C789283D091D00FEAE68 /* NetworkManager.swift in Sources */,
 				D468C785283D000900FEAE68 /* Router.swift in Sources */,

@@ -19,7 +19,6 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
     
     
     var viewModel = FirstFlowVM()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.delegate = self
@@ -58,7 +57,8 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
     }
     
     @IBAction func finallyButton(_ sender: Any) {
-
+        AppRouter.shared.showFinallyLessonPage(self.navigationController, data: viewModel.data)
+       
     }
     @IBAction func rondomButton(_ sender: Any) {
         guard let data = viewModel.data.randomElement() else {return}

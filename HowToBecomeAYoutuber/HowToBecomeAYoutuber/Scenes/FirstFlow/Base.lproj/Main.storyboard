@@ -31,7 +31,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Lo-SX-mMP">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="DERSLER"/>
                                                                 <connections>
                                                                     <action selector="lessonsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgZ-dY-qHH"/>
                                                                 </connections>
@@ -52,7 +52,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F05-Fm-unm">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="SON DERSLER"/>
                                                                 <connections>
                                                                     <action selector="finallyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Mo-KZ-8rR"/>
                                                                 </connections>
@@ -73,7 +73,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RA-UC-UzN">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="RANDOM"/>
                                                                 <connections>
                                                                     <action selector="rondomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vG4-nK-n7e"/>
                                                                 </connections>
@@ -102,7 +102,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYO-MJ-fau">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="PAYLAŞ"/>
                                                                 <connections>
                                                                     <action selector="shareButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dmi-Vr-3qr"/>
                                                                 </connections>
@@ -123,7 +123,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAS-wW-71Q">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="UYGULAMA HAKKINDA"/>
                                                                 <connections>
                                                                     <action selector="appAboutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FzH-YV-Nys"/>
                                                                 </connections>
@@ -144,7 +144,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRH-1z-Jdl">
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="100"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="DEVELOPER ABOUT"/>
                                                                 <connections>
                                                                     <action selector="developerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLW-P5-6k3"/>
                                                                 </connections>

@@ -15,6 +15,7 @@ public enum StoryboardNames: String {
     case explanation = "ExplanationFlow"
     case developer = "DeveloperFlow"
     case random = "RandomFlow"
+    case finallyLesson = "FinallyLesson"
 }
 
 protocol StoryboardSettings {

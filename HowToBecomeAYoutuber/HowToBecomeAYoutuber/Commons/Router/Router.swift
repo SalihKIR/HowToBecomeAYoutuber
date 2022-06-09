@@ -41,5 +41,13 @@ final class AppRouter {
         navigationController?.pushViewController(vc, animated: true)
         
     }
+    func showFinallyLessonPage(_ navigationController: UINavigationController?, data: [Datum]){
+        let vc = FinallyLessonVC.instantiate(storyboard: .finallyLesson)
+        let vm = FinallyFlowVM()
+        vc.viewModel = vm
+        vm.data = data
+        navigationController?.pushViewController(vc, animated: true)
+    }
+   
     
 }
