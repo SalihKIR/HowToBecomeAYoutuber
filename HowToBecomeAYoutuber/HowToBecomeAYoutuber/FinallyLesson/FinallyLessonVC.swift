@@ -33,6 +33,7 @@ class FinallyLessonVC: UIViewController ,UITableViewDelegate , UITableViewDataSo
         tabelViewFinallyLesson.layer.cornerRadius = 10
         let youtubecell = tabelViewFinallyLesson.dequeueReusableCell(withIdentifier: DetailFlowCell.identifier, for: indexPath) as! DetailFlowCell
         youtubecell.cellLabel.text = viewModel.data[indexPath.row].baslik
+        youtubecell.cellİmageView.downloaded(from: viewModel.data[indexPath.row].icon) 
         return youtubecell
     }
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
