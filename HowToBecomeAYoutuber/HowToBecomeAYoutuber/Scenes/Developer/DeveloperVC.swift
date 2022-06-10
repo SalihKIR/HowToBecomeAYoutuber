@@ -9,7 +9,9 @@ import Foundation
 import UIKit
 class DeveloperVC: UIViewController {
     
+    @IBOutlet weak var developerImage: UIImageView!
     
+    @IBOutlet weak var developerTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         

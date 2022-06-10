@@ -18,7 +18,33 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jmx-vr-tgg">
                                 <rect key="frame" x="3" y="44" width="408" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a4F-Ed-RiS">
+                                        <rect key="frame" x="30" y="51.5" width="348" height="297.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="348" id="83U-yo-bu0"/>
+                                            <constraint firstAttribute="height" constant="300" id="ET3-Pd-xAS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="caT-7B-0tD">
+                                        <rect key="frame" x="40" y="430" width="328" height="268"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="caT-7B-0tD" secondAttribute="bottom" constant="120" id="6jK-3P-J3n"/>
+                                    <constraint firstAttribute="trailing" secondItem="a4F-Ed-RiS" secondAttribute="trailing" constant="30" id="EUS-7Y-eyp"/>
+                                    <constraint firstItem="a4F-Ed-RiS" firstAttribute="top" secondItem="Jmx-vr-tgg" secondAttribute="top" constant="50" id="I0m-zt-drs"/>
+                                    <constraint firstAttribute="trailing" secondItem="caT-7B-0tD" secondAttribute="trailing" constant="40" id="Pgx-hu-NZ5"/>
+                                    <constraint firstItem="a4F-Ed-RiS" firstAttribute="leading" secondItem="Jmx-vr-tgg" secondAttribute="leading" constant="30" id="blp-mV-f2G"/>
+                                    <constraint firstItem="caT-7B-0tD" firstAttribute="leading" secondItem="Jmx-vr-tgg" secondAttribute="leading" constant="40" id="jOc-It-Qex"/>
+                                    <constraint firstItem="caT-7B-0tD" firstAttribute="top" secondItem="a4F-Ed-RiS" secondAttribute="bottom" constant="80" id="u6Q-bL-QhB"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -30,13 +56,21 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jmx-vr-tgg" secondAttribute="trailing" constant="3" id="Jq6-8N-A8A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="developerImage" destination="a4F-Ed-RiS" id="aco-gv-1Ko"/>
+                        <outlet property="developerTextView" destination="caT-7B-0tD" id="lB6-Tv-PiL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="99" y="95"/>
+            <point key="canvasLocation" x="98.550724637681171" y="94.419642857142847"/>
         </scene>
     </scenes>
     <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
