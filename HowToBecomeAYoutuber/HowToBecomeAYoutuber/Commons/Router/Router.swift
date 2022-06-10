@@ -45,7 +45,7 @@ final class AppRouter {
         let vc = FinallyLessonVC.instantiate(storyboard: .finallyLesson)
         let vm = FinallyFlowVM()
         vc.viewModel = vm
-        vm.data = data
+        vm.data = data.reversed()
         navigationController?.pushViewController(vc, animated: true)
     }
    
