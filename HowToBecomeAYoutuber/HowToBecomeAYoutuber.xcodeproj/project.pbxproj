@@ -13,6 +13,7 @@
 		D43687922851045F005528A1 /* FinallyLesson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43687912851045F005528A1 /* FinallyLesson.storyboard */; };
 		D436879428510470005528A1 /* FinallyLessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436879328510470005528A1 /* FinallyLessonVC.swift */; };
 		D436879628510895005528A1 /* FinallyLessonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436879528510895005528A1 /* FinallyLessonVM.swift */; };
+		D436879B2853F23D005528A1 /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436879A2853F23D005528A1 /* ShareVC.swift */; };
 		D468C783283CFFE400FEAE68 /* LessonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C782283CFFE400FEAE68 /* LessonApi.swift */; };
 		D468C785283D000900FEAE68 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C784283D000900FEAE68 /* Router.swift */; };
 		D468C787283D07F300FEAE68 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468C786283D07F300FEAE68 /* Api.swift */; };
@@ -45,6 +46,7 @@
 		D43687912851045F005528A1 /* FinallyLesson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinallyLesson.storyboard; sourceTree = "<group>"; };
 		D436879328510470005528A1 /* FinallyLessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyLessonVC.swift; sourceTree = "<group>"; };
 		D436879528510895005528A1 /* FinallyLessonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyLessonVM.swift; sourceTree = "<group>"; };
+		D436879A2853F23D005528A1 /* ShareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
 		D468C782283CFFE400FEAE68 /* LessonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonApi.swift; sourceTree = "<group>"; };
 		D468C784283D000900FEAE68 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D468C786283D07F300FEAE68 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			path = FinallyLesson;
 			sourceTree = "<group>";
 		};
+		D43687972853F1F9005528A1 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				D436879A2853F23D005528A1 /* ShareVC.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
 		D4AD138E2847905C0005B406 /* Developer */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +144,6 @@
 				D4FDC2192836A89000F8F244 /* Commons */,
 				D4FDC2172836A83A00F8F244 /* Extension */,
 				D4FDC2082836A31100F8F244 /* Scenes */,
-				D43687902851041A005528A1 /* FinallyLesson */,
 				D4FDC2152836A81300F8F244 /* Model */,
 				D4FDC1FF2836678300F8F244 /* LaunchScreen.storyboard */,
 				D4FDC1FD2836678300F8F244 /* Assets.xcassets */,
@@ -153,6 +162,8 @@
 				D4FDC20B2836A60E00F8F244 /* ExplanationFlow */,
 				D4AD138E2847905C0005B406 /* Developer */,
 				D43687892850C3E3005528A1 /* Random */,
+				D43687972853F1F9005528A1 /* Share */,
+				D43687902851041A005528A1 /* FinallyLesson */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -325,6 +336,7 @@
 				D4AD138B28452BF00005B406 /* DetailFlowVM.swift in Sources */,
 				D436879628510895005528A1 /* FinallyLessonVM.swift in Sources */,
 				D436878B2850CB5B005528A1 /* RandomVC.swift in Sources */,
+				D436879B2853F23D005528A1 /* ShareVC.swift in Sources */,
 				D468C789283D091D00FEAE68 /* NetworkManager.swift in Sources */,
 				D468C785283D000900FEAE68 /* Router.swift in Sources */,
 				D4AD1392284790D30005B406 /* DeveloperVC.swift in Sources */,

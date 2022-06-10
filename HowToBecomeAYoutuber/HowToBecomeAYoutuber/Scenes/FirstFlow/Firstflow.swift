@@ -16,6 +16,7 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
     @IBOutlet weak var secondViewFirst: UIView!
     @IBOutlet weak var secondViewSecomd: UIView!
     @IBOutlet weak var secondViewThird: UIView!
+    @IBOutlet weak var shareButton: UIButton!
     
     
     var viewModel = FirstFlowVM()
@@ -65,6 +66,18 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
         AppRouter.shared.showRandomPage(self.navigationController, data: data)
     }
     @IBAction func shareButton(_ sender: Any) {
+        // text to share
+        let text = "Uygulamayı Paylaşmaya Nedersin."
+               // set up activity view controller
+               let textToShare = [ text ]
+               let activityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
+               activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
+
+               // exclude some activity types from the list (optional)
+        activityViewController.excludedActivityTypes = [ UIActivity.ActivityType.airDrop, UIActivity.ActivityType.postToTwitter ]
+
+               // present the view controller
+               self.present(activityViewController, animated: true, completion: nil)
     }
     @IBAction func appAboutButton(_ sender: Any) {
     }
