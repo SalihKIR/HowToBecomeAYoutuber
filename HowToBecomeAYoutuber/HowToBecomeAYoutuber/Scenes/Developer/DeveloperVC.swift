@@ -14,7 +14,9 @@ class DeveloperVC: UIViewController {
     @IBOutlet weak var developerTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        developerTextView.text = "Düzce Üniversitessi 4 Sınıf 'Elektrik Elektronik Mühendisliği Öğrencisiyim' 2 senedir iOS üzerine çalışıp uygulama gerçekleştirmekteyim. Bunun ile berabe gelecek hayatımı iOS üzerine yoğunlaşarak geçirmek istiyorum..."
+        developerImage.layer.cornerRadius = 10
+        developerImage.image = UIImage(named: "Person")
 }
     
 }
