@@ -15,6 +15,7 @@ class DeveloperVC: UIViewController {
     @IBOutlet weak var developerTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        developerTextView.layer.cornerRadius = 10
         developerTextView.text = "Düzce Üniversitessi 4 Sınıf 'Elektrik Elektronik Mühendisliği Öğrencisiyim' 2 senedir iOS üzerine çalışıp uygulama gerçekleştirmekteyim. Bunun ile berabe gelecek hayatımı iOS üzerine yoğunlaşarak geçirmek istiyorum..."
         imageView.layer.cornerRadius = 10
         developerImage.layer.cornerRadius = 10

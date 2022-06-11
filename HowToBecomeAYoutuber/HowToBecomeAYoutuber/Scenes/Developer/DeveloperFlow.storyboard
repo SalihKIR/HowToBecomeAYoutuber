@@ -21,7 +21,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="caT-7B-0tD">
                                         <rect key="frame" x="40" y="393" width="320" height="300"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="eWe-dS-UcS"/>
                                         </constraints>
@@ -31,19 +31,19 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RzI-NL-YRD">
-                                        <rect key="frame" x="100" y="50" width="200" height="230"/>
+                                        <rect key="frame" x="100" y="55" width="200" height="230"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Person" translatesAutoresizingMaskIntoConstraints="NO" id="jq4-y5-oPf">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Person" translatesAutoresizingMaskIntoConstraints="NO" id="jq4-y5-oPf">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="230"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="jq4-y5-oPf" secondAttribute="trailing" id="B4d-NG-siR"/>
-                                            <constraint firstItem="jq4-y5-oPf" firstAttribute="top" secondItem="RzI-NL-YRD" secondAttribute="top" id="gj2-ns-bIu"/>
-                                            <constraint firstAttribute="bottom" secondItem="jq4-y5-oPf" secondAttribute="bottom" id="jhN-jC-ehb"/>
+                                            <constraint firstItem="jq4-y5-oPf" firstAttribute="leading" secondItem="RzI-NL-YRD" secondAttribute="leading" id="0rs-hC-zjE"/>
+                                            <constraint firstAttribute="trailing" secondItem="jq4-y5-oPf" secondAttribute="trailing" id="6BT-S5-q4B"/>
+                                            <constraint firstItem="jq4-y5-oPf" firstAttribute="top" secondItem="RzI-NL-YRD" secondAttribute="top" id="Aqz-uL-dlf"/>
                                             <constraint firstAttribute="width" constant="200" id="rfZ-h4-WSq"/>
-                                            <constraint firstItem="jq4-y5-oPf" firstAttribute="leading" secondItem="RzI-NL-YRD" secondAttribute="leading" id="vSq-oA-esR"/>
+                                            <constraint firstAttribute="bottom" secondItem="jq4-y5-oPf" secondAttribute="bottom" id="sKb-gf-6F9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -54,7 +54,7 @@
                                     <constraint firstAttribute="trailing" secondItem="RzI-NL-YRD" secondAttribute="trailing" constant="100" id="Se2-VW-3Ad"/>
                                     <constraint firstItem="RzI-NL-YRD" firstAttribute="leading" secondItem="Jmx-vr-tgg" secondAttribute="leading" constant="100" id="gJr-r2-LzE"/>
                                     <constraint firstItem="caT-7B-0tD" firstAttribute="leading" secondItem="Jmx-vr-tgg" secondAttribute="leading" constant="40" id="hfc-Vj-QBK"/>
-                                    <constraint firstItem="RzI-NL-YRD" firstAttribute="top" secondItem="Jmx-vr-tgg" secondAttribute="top" constant="50" id="us6-wa-BwN"/>
+                                    <constraint firstItem="RzI-NL-YRD" firstAttribute="top" secondItem="Jmx-vr-tgg" secondAttribute="top" constant="55" id="us6-wa-BwN"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -85,8 +85,11 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
