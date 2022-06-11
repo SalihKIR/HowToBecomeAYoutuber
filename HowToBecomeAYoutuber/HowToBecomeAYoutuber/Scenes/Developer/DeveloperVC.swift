@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 class DeveloperVC: UIViewController {
+    @IBOutlet weak var imageView: UIView!
     
     @IBOutlet weak var developerImage: UIImageView!
     
@@ -15,6 +16,7 @@ class DeveloperVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         developerTextView.text = "Düzce Üniversitessi 4 Sınıf 'Elektrik Elektronik Mühendisliği Öğrencisiyim' 2 senedir iOS üzerine çalışıp uygulama gerçekleştirmekteyim. Bunun ile berabe gelecek hayatımı iOS üzerine yoğunlaşarak geçirmek istiyorum..."
+        imageView.layer.cornerRadius = 10
         developerImage.layer.cornerRadius = 10
         developerImage.image = UIImage(named: "Person")
 }
