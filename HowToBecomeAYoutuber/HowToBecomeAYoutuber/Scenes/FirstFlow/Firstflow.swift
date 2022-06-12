@@ -67,7 +67,7 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
     }
     @IBAction func shareButton(_ sender: Any) {
         // text to share
-        let text = "Uygulamayı Paylaşmaya Nedersin."
+        let text = "Uygulamayı Paylaşmaya Nedersin. Berfinsssss"
                // set up activity view controller
                let textToShare = [ text ]
                let activityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
