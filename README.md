@@ -2,7 +2,14 @@
 
 
 
-![Simulator Screen Shot - iPhone 12 - 2022-06-22 at 15 43 27](https://user-images.githubusercontent.com/77065124/175032471-68768300-ac59-4b83-b7b9-28831619d8c3.png)
+![Simulator Screen Shot - iPhone 12 - 2022-06-22 at 15 58 48](https://user-images.githubusercontent.com/77065124/175035010-7670570b-67ac-43ef-a241-6e3d29f1b204.png)
+
+
+
+
+![Simulator Screen Shot - iPhone 12 - 2022-06-22 at 15 58 57](https://user-images.githubusercontent.com/77065124/175034997-ad48e432-fa2a-444d-83dd-ad8db6c47768.png)
+
+
 
 
 
