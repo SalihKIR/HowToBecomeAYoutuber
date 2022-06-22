@@ -25,7 +25,7 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
         viewModel.delegate = self
         viewModel.getLessonData()
        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "youtube.jpeg")!)
-        navigationItem.title = "YOU Tuber"
+        navigationItem.title = "YOUTuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
         
