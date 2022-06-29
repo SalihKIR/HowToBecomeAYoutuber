@@ -24,21 +24,12 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
         super.viewDidLoad()
         viewModel.delegate = self
         viewModel.getLessonData()
-       viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "youtube.jpeg")!)
+        viewBackGround.backgroundColor = UIColor(patternImage: UIImage(named: "youtube.jpeg")!)
         navigationItem.title = "YOUTuber"
         navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor : UIColor.white ]
         settingsView()
         
     }
-
-    //@IBAction func firstbutton(_ sender: Any) {
-      //  AppRouter.shared.showDetailPage(self.navigationController)
-        //let vc = DetailFlowVC.instantiate()
-       // let vc = DetailFlowVC.instantiate(storyboard: .detailFlow)
-       // navigationController?.setNavigationBarHidden(true, animated: true)
-        //navigationController?.pushViewController(vc, animated: true)
-        // trybutton.titleLabel!.text = "Next"
-    //}
     
     func settingsView(){
         viewfirst.layer.cornerRadius = 20
@@ -48,8 +39,6 @@ class FirstFlowVC: UIViewController, FirstFlowDelegateOutputs {
         secondViewFirst.layer.cornerRadius = 20
         secondViewSecomd.layer.cornerRadius = 20
         secondViewThird.layer.cornerRadius = 20
-        
-        
         
     }
 
